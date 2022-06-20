@@ -1,0 +1,151 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:0px;top:2px;width:1283px;height:706px;z-index:2;min-width:1283px;}
+#Img1Inner {position: absolute;width:1283px;height:706px;border:0px;}
+#But2 {display:block;overflow:hidden;position:absolute;left:820px;top:521px;width:20px;height:18px;z-index:3;background:url('buttons/tcp_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -20px 0;}
+#But2.Over {background-position: -40px 0;}
+#But2 p {cursor:default;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But2.Up p {top:10px;left:13px;}
+#But2.Down p {top:11px;left:14px;}
+#But2.Over p {top:10px;left:13px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:14px;top:14px;width:100px;height:72px;z-index:4;background:url('buttons/tcp_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -100px 0;}
+#But3.Over {background-position: -200px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But3.Up p {top:37px;left:53px;}
+#But3.Down p {top:38px;left:54px;}
+#But3.Over p {top:37px;left:53px;}
+#But3 div {display:none;}
+#Text3 {word-wrap:break-word; display:none;position:absolute;left:58px;top:61px;width:62px;height:26px;z-index:5;background-color:#ffffff;}
+#But25 {display:block;overflow:hidden;position:absolute;left:463px;top:502px;width:33px;height:120px;z-index:6;background:url('buttons/tcp_But25.png');background-repeat:no-repeat;}
+#But25.Up {background-position: 0 0;}
+#But25.Down {background-position: -33px 0;}
+#But25.Over {background-position: -66px 0;}
+#But25 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But25.Up p {top:61px;left:20px;}
+#But25.Down p {top:62px;left:21px;}
+#But25.Over p {top:61px;left:20px;}
+#But25 div {display:none;}
+#But30 {display:block;overflow:hidden;position:absolute;left:7px;top:504px;width:340px;height:161px;z-index:7;background:url('buttons/tcp_But30.png');background-repeat:no-repeat;}
+#But30.Up {background-position: 0 0;}
+#But30.Down {background-position: -340px 0;}
+#But30.Over {background-position: -680px 0;}
+#But30 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#000080;}
+#But30.Up p {top:69px;left:104px;}
+#But30.Down p {top:70px;left:105px;}
+#But30.Over p {top:69px;left:104px;}
+#But30 div {display:none;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:136px;top:57px;width:600px;height:37px;z-index:8;}
+#But31 {display:block;overflow:hidden;position:absolute;left:378px;top:502px;width:292px;height:166px;z-index:9;background:url('buttons/tcp_But31.png');background-repeat:no-repeat;}
+#But31.Up {background-position: 0 0;}
+#But31.Down {background-position: -292px 0;}
+#But31.Over {background-position: -584px 0;}
+#But31 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#000080;}
+#But31.Up p {top:71px;left:80px;}
+#But31.Down p {top:72px;left:81px;}
+#But31.Over p {top:71px;left:80px;}
+#But31 div {display:none;}
+#Text27 {word-wrap:break-word; display:none;position:absolute;left:850px;top:188px;width:44px;height:26px;z-index:10;background-color:#ffffff;}
+#But32 {display:block;overflow:hidden;position:absolute;left:863px;top:220px;width:40px;height:47px;z-index:11;background:url('buttons/tcp_But32.png');background-repeat:no-repeat;}
+#But32.Up {background-position: 0 0;}
+#But32.Down {background-position: -40px 0;}
+#But32.Over {background-position: -80px 0;}
+#But32 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But32.Up p {top:25px;left:23px;}
+#But32.Down p {top:26px;left:24px;}
+#But32.Over p {top:25px;left:23px;}
+#But32 div {display:none;}
+#Text28 {word-wrap:break-word; display:none;position:absolute;left:893px;top:188px;width:44px;height:26px;z-index:12;background-color:#ffffff;}
+#But33 {display:block;overflow:hidden;position:absolute;left:906px;top:219px;width:25px;height:54px;z-index:13;background:url('buttons/tcp_But33.png');background-repeat:no-repeat;}
+#But33.Up {background-position: 0 0;}
+#But33.Down {background-position: -25px 0;}
+#But33.Over {background-position: -50px 0;}
+#But33 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But33.Up p {top:28px;left:16px;}
+#But33.Down p {top:29px;left:17px;}
+#But33.Over p {top:28px;left:16px;}
+#But33 div {display:none;}
+#Text29 {word-wrap:break-word; display:none;position:absolute;left:983px;top:181px;width:44px;height:26px;z-index:14;background-color:#ffffff;}
+#But34 {display:block;overflow:hidden;position:absolute;left:959px;top:216px;width:25px;height:54px;z-index:15;background:url('buttons/tcp_But33.png');background-repeat:no-repeat;}
+#But34.Up {background-position: 0 0;}
+#But34.Down {background-position: -25px 0;}
+#But34.Over {background-position: -50px 0;}
+#But34 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But34.Up p {top:28px;left:16px;}
+#But34.Down p {top:29px;left:17px;}
+#But34.Over p {top:28px;left:16px;}
+#But34 div {display:none;}
+#Text30 {word-wrap:break-word; display:none;position:absolute;left:939px;top:188px;width:44px;height:26px;z-index:16;background-color:#ffffff;}
+#But35 {display:block;overflow:hidden;position:absolute;left:936px;top:214px;width:21px;height:54px;z-index:17;background:url('buttons/tcp_But35.png');background-repeat:no-repeat;}
+#But35.Up {background-position: 0 0;}
+#But35.Down {background-position: -21px 0;}
+#But35.Over {background-position: -42px 0;}
+#But35 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But35.Up p {top:28px;left:14px;}
+#But35.Down p {top:29px;left:15px;}
+#But35.Over p {top:28px;left:14px;}
+#But35 div {display:none;}
+#But36 {display:block;overflow:hidden;position:absolute;left:855px;top:274px;width:140px;height:226px;z-index:18;background:url('buttons/tcp_But36.png');background-repeat:no-repeat;}
+#But36.Up {background-position: 0 0;}
+#But36.Down {background-position: -140px 0;}
+#But36.Over {background-position: -280px 0;}
+#But36 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:19px;color:#000080;}
+#But36.Up p {top:102px;left:12px;}
+#But36.Down p {top:103px;left:13px;}
+#But36.Over p {top:102px;left:12px;}
+#But36 div {display:none;}
+#But37 {display:block;overflow:hidden;position:absolute;left:899px;top:502px;width:41px;height:54px;z-index:19;background:url('buttons/tcp_But37.png');background-repeat:no-repeat;}
+#But37.Up {background-position: 0 0;}
+#But37.Down {background-position: -41px 0;}
+#But37.Over {background-position: -82px 0;}
+#But37 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But37.Up p {top:28px;left:24px;}
+#But37.Down p {top:29px;left:25px;}
+#But37.Over p {top:28px;left:24px;}
+#But37 div {display:none;}
+#But45 {display:block;overflow:hidden;position:absolute;left:1009px;top:69px;width:166px;height:537px;z-index:20;background:url('buttons/tcp_But45.png');background-repeat:no-repeat;}
+#But45.Up {background-position: 0 0;}
+#But45.Down {background-position: -166px 0;}
+#But45.Over {background-position: -332px 0;}
+#But45 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#FF0000;}
+#But45.Up p {top:257px;left:40px;}
+#But45.Down p {top:258px;left:41px;}
+#But45.Over p {top:257px;left:40px;}
+#But45 div {display:none;}
+#But49 {display:block;overflow:hidden;position:absolute;left:58px;top:309px;width:178px;height:161px;z-index:21;background:url('buttons/tcp_But49.png');background-repeat:no-repeat;}
+#But49.Up {background-position: 0 0;}
+#But49.Down {background-position: -178px 0;}
+#But49.Over {background-position: -356px 0;}
+#But49 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#000080;}
+#But49.Up p {top:69px;left:23px;}
+#But49.Down p {top:70px;left:24px;}
+#But49.Over p {top:69px;left:23px;}
+#But49 div {display:none;}
+#But50 {display:block;overflow:hidden;position:absolute;left:670px;top:503px;width:332px;height:171px;z-index:22;background:url('buttons/tcp_But50.png');background-repeat:no-repeat;}
+#But50.Up {background-position: 0 0;}
+#But50.Down {background-position: -332px 0;}
+#But50.Over {background-position: -664px 0;}
+#But50 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#000080;}
+#But50.Up p {top:74px;left:100px;}
+#But50.Down p {top:75px;left:101px;}
+#But50.Over p {top:74px;left:100px;}
+#But50 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:464px;top:200px;width:376px;height:299px;z-index:23;background:url('buttons/tcp_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -376px 0;}
+#But1.Over {background-position: -752px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#000080;}
+#But1.Up p {top:138px;left:122px;}
+#But1.Down p {top:139px;left:123px;}
+#But1.Over p {top:138px;left:122px;}
+#But1 div {display:none;}

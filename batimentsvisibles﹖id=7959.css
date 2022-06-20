@@ -1,0 +1,304 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-9px;width:1360px;height:264px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/batimentsvisibles_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:317px;top:210px;width:551px;height:35px;z-index:4;background:url('buttons/batimentsvisibles_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -551px 0;}
+#But10.Over {background-position: -1102px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:174px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:202px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:201px;}
+#But10 div {display:none;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:5;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:243px;width:1312px;height:558px;z-index:6;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/batimentsvisibles_Box2.png');background-repeat:no-repeat;}
+#But6 {display:block;overflow:hidden;position:absolute;left:997px;top:344px;width:331px;height:35px;z-index:7;background:url('buttons/batimentsvisibles_But16.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -331px 0;}
+#But6.Over {background-position: -662px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:60px;}
+#But6.Down p {color:#08384E;top:7px;left:61px;}
+#But6.Over p {color:#08384E;top:6px;left:60px;}
+#But6 div {display:none;}
+#Img29 {display:none;overflow:hidden;position:absolute;left:406px;top:47px;width:490px;height:331px;z-index:8;min-width:490px;}
+#Img29Inner {position: absolute;width:490px;height:331px;border:0px;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:254px;width:391px;height:35px;z-index:9;background:url('buttons/batimentsvisibles_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -391px 0;}
+#But4.Over {background-position: -782px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:113px;}
+#But4.Down p {color:#08384E;top:7px;left:114px;}
+#But4.Over p {color:#08384E;top:6px;left:113px;}
+#But4 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:9px;top:282px;width:365px;height:35px;z-index:10;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:145px;}
+#But2.Down p {color:#08384E;top:7px;left:146px;}
+#But2.Over p {color:#08384E;top:6px;left:145px;}
+#But2 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:338px;top:254px;width:678px;height:553px;z-index:11;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/batimentsvisibles_Box3.png');background-repeat:no-repeat;}
+#Img27 {display:none;overflow:hidden;position:absolute;left:72px;top:45px;width:526px;height:354px;z-index:12;min-width:526px;}
+#Img27Inner {position: absolute;width:526px;height:354px;border:0px;}
+#Img26 {display:none;overflow:hidden;position:absolute;left:91px;top:95px;width:526px;height:352px;z-index:13;min-width:526px;}
+#Img26Inner {position: absolute;width:526px;height:352px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:3px;top:188px;width:204px;height:73px;z-index:14;}
+#Img23 {display:none;overflow:hidden;position:absolute;left:379px;top:280px;width:327px;height:247px;z-index:15;min-width:327px;}
+#Img23Inner {position: absolute;width:327px;height:247px;border:0px;}
+#Img22 {display:none;overflow:hidden;position:absolute;left:634px;top:547px;width:341px;height:227px;z-index:16;min-width:341px;}
+#Img22Inner {position: absolute;width:341px;height:227px;border:0px;}
+#But1 {display:block;overflow:hidden;position:absolute;left:9px;top:309px;width:365px;height:35px;z-index:17;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -365px 0;}
+#But1.Over {background-position: -730px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:133px;}
+#But1.Down p {color:#08384E;top:7px;left:134px;}
+#But1.Over p {color:#08384E;top:6px;left:133px;}
+#But1 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:9px;top:343px;width:365px;height:35px;z-index:18;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -365px 0;}
+#But3.Over {background-position: -730px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:125px;}
+#But3.Down p {color:#08384E;top:7px;left:126px;}
+#But3.Over p {color:#08384E;top:6px;left:125px;}
+#But3 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:9px;top:411px;width:365px;height:35px;z-index:19;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -365px 0;}
+#But8.Over {background-position: -730px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:55px;}
+#But8.Down p {color:#08384E;top:7px;left:56px;}
+#But8.Over p {color:#08384E;top:6px;left:55px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:9px;top:445px;width:365px;height:35px;z-index:20;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -365px 0;}
+#But9.Over {background-position: -730px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:79px;}
+#But9.Down p {color:#08384E;top:7px;left:80px;}
+#But9.Over p {color:#08384E;top:6px;left:79px;}
+#But9 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:3px;top:479px;width:365px;height:35px;z-index:21;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -365px 0;}
+#But11.Over {background-position: -730px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But11.Up p {color:#039EE9;top:6px;left:68px;}
+#But11.Down p {color:#08384E;top:7px;left:69px;}
+#But11.Over p {color:#08384E;top:6px;left:68px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:3px;top:513px;width:365px;height:35px;z-index:22;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -365px 0;}
+#But12.Over {background-position: -730px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But12.Up p {color:#039EE9;top:6px;left:79px;}
+#But12.Down p {color:#08384E;top:7px;left:80px;}
+#But12.Over p {color:#08384E;top:6px;left:79px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:1018px;top:377px;width:269px;height:35px;z-index:23;background:url('buttons/batimentsvisibles_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -269px 0;}
+#But13.Over {background-position: -538px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But13.Up p {color:#039EE9;top:6px;left:11px;}
+#But13.Down p {color:#08384E;top:7px;left:12px;}
+#But13.Over p {color:#08384E;top:6px;left:11px;}
+#But13 div {display:none;}
+#But15 {display:block;overflow:hidden;position:absolute;left:1001px;top:343px;width:324px;height:35px;z-index:24;background:url('buttons/batimentsvisibles_But15.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -324px 0;}
+#But15.Over {background-position: -648px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But15.Up p {color:#039EE9;top:6px;left:27px;}
+#But15.Down p {color:#08384E;top:7px;left:28px;}
+#But15.Over p {color:#08384E;top:6px;left:27px;}
+#But15 div {display:none;}
+#But16 {display:block;overflow:hidden;position:absolute;left:994px;top:547px;width:331px;height:35px;z-index:25;background:url('buttons/batimentsvisibles_But16.png');background-repeat:no-repeat;}
+#But16.Up {background-position: 0 0;}
+#But16.Down {background-position: -331px 0;}
+#But16.Over {background-position: -662px 0;}
+#But16 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But16.Up p {color:#039EE9;top:6px;left:65px;}
+#But16.Down p {color:#08384E;top:7px;left:66px;}
+#But16.Over p {color:#08384E;top:6px;left:65px;}
+#But16 div {display:none;}
+#But17 {display:block;overflow:hidden;position:absolute;left:1001px;top:411px;width:365px;height:35px;z-index:26;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -365px 0;}
+#But17.Over {background-position: -730px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But17.Up p {color:#039EE9;top:6px;left:53px;}
+#But17.Down p {color:#08384E;top:7px;left:54px;}
+#But17.Over p {color:#08384E;top:6px;left:53px;}
+#But17 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:980px;top:445px;width:365px;height:35px;z-index:27;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -365px 0;}
+#But18.Over {background-position: -730px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But18.Up p {color:#039EE9;top:6px;left:89px;}
+#But18.Down p {color:#08384E;top:7px;left:90px;}
+#But18.Over p {color:#08384E;top:6px;left:89px;}
+#But18 div {display:none;}
+#But19 {display:block;overflow:hidden;position:absolute;left:984px;top:479px;width:365px;height:35px;z-index:28;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But19.Up {background-position: 0 0;}
+#But19.Down {background-position: -365px 0;}
+#But19.Over {background-position: -730px 0;}
+#But19 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But19.Up p {color:#039EE9;top:6px;left:52px;}
+#But19.Down p {color:#08384E;top:7px;left:53px;}
+#But19.Over p {color:#08384E;top:6px;left:52px;}
+#But19 div {display:none;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:461px;top:343px;width:459px;height:363px;z-index:29;min-width:459px;}
+#Img2Inner {position: absolute;width:459px;height:363px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:455px;top:369px;width:470px;height:317px;z-index:30;min-width:470px;}
+#Img4Inner {position: absolute;width:470px;height:317px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:442px;top:377px;width:490px;height:322px;z-index:31;min-width:490px;}
+#Img5Inner {position: absolute;width:490px;height:322px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:446px;top:377px;width:465px;height:317px;z-index:32;min-width:465px;}
+#Img6Inner {position: absolute;width:465px;height:317px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:423px;top:361px;width:511px;height:343px;z-index:33;min-width:511px;}
+#Img7Inner {position: absolute;width:511px;height:343px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:447px;top:323px;width:489px;height:330px;z-index:34;min-width:489px;}
+#Img8Inner {position: absolute;width:489px;height:330px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:445px;top:366px;width:488px;height:328px;z-index:35;min-width:488px;}
+#Img9Inner {position: absolute;width:488px;height:328px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:425px;top:323px;width:500px;height:337px;z-index:36;min-width:500px;}
+#Img10Inner {position: absolute;width:500px;height:337px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:425px;top:369px;width:510px;height:340px;z-index:37;min-width:510px;}
+#Img11Inner {position: absolute;width:510px;height:340px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:425px;top:369px;width:502px;height:339px;z-index:38;min-width:502px;}
+#Img12Inner {position: absolute;width:502px;height:339px;border:0px;}
+#Img13 {display:none;overflow:hidden;position:absolute;left:425px;top:366px;width:506px;height:338px;z-index:39;min-width:506px;}
+#Img13Inner {position: absolute;width:506px;height:338px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:533px;top:334px;width:312px;height:409px;z-index:40;min-width:312px;}
+#Img14Inner {position: absolute;width:312px;height:409px;border:0px;}
+#Obj3 {word-wrap:break-word; display:block;position:absolute;left:1079px;top:170px;width:204px;height:73px;z-index:41;}
+#But5 {display:block;overflow:hidden;position:absolute;left:974px;top:513px;width:365px;height:35px;z-index:42;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -365px 0;}
+#But5.Over {background-position: -730px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:113px;}
+#But5.Down p {color:#08384E;top:7px;left:114px;}
+#But5.Over p {color:#08384E;top:6px;left:113px;}
+#But5 div {display:none;}
+#Img15 {display:none;overflow:hidden;position:absolute;left:425px;top:369px;width:435px;height:268px;z-index:43;min-width:435px;}
+#Img15Inner {position: absolute;width:435px;height:268px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:1014px;top:269px;width:286px;height:35px;z-index:44;background:url('buttons/batimentsvisibles_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -286px 0;}
+#But7.Over {background-position: -572px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:44px;}
+#But7.Down p {color:#08384E;top:7px;left:45px;}
+#But7.Over p {color:#08384E;top:6px;left:44px;}
+#But7 div {display:none;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:425px;top:348px;width:523px;height:353px;z-index:45;min-width:523px;}
+#Img1Inner {position: absolute;width:523px;height:353px;border:0px;}
+#Img17 {display:none;overflow:hidden;position:absolute;left:431px;top:349px;width:517px;height:343px;z-index:46;min-width:517px;}
+#Img17Inner {position: absolute;width:517px;height:343px;border:0px;}
+#Img18 {display:none;overflow:hidden;position:absolute;left:545px;top:310px;width:315px;height:363px;z-index:47;min-width:315px;}
+#Img18Inner {position: absolute;width:315px;height:363px;border:0px;}
+#But14 {display:block;overflow:hidden;position:absolute;left:9px;top:547px;width:365px;height:35px;z-index:48;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -365px 0;}
+#But14.Over {background-position: -730px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But14.Up p {color:#039EE9;top:6px;left:51px;}
+#But14.Down p {color:#08384E;top:7px;left:52px;}
+#But14.Over p {color:#08384E;top:6px;left:51px;}
+#But14 div {display:none;}
+#Img19 {display:none;overflow:hidden;position:absolute;left:533px;top:305px;width:321px;height:376px;z-index:49;min-width:321px;}
+#Img19Inner {position: absolute;width:321px;height:376px;border:0px;}
+#But20 {display:block;overflow:hidden;position:absolute;left:-5px;top:587px;width:365px;height:35px;z-index:50;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But20.Up {background-position: 0 0;}
+#But20.Down {background-position: -365px 0;}
+#But20.Over {background-position: -730px 0;}
+#But20 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But20.Up p {color:#039EE9;top:6px;left:60px;}
+#But20.Down p {color:#08384E;top:7px;left:61px;}
+#But20.Over p {color:#08384E;top:6px;left:60px;}
+#But20 div {display:none;}
+#Img20 {display:none;overflow:hidden;position:absolute;left:442px;top:303px;width:532px;height:357px;z-index:51;min-width:532px;}
+#Img20Inner {position: absolute;width:532px;height:357px;border:0px;}
+#But21 {display:block;overflow:hidden;position:absolute;left:-16px;top:621px;width:365px;height:35px;z-index:52;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But21.Up {background-position: 0 0;}
+#But21.Down {background-position: -365px 0;}
+#But21.Over {background-position: -730px 0;}
+#But21 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But21.Up p {color:#039EE9;top:6px;left:129px;}
+#But21.Down p {color:#08384E;top:7px;left:130px;}
+#But21.Over p {color:#08384E;top:6px;left:129px;}
+#But21 div {display:none;}
+#But22 {display:block;overflow:hidden;position:absolute;left:-16px;top:659px;width:365px;height:35px;z-index:53;background:url('buttons/batimentsvisibles_But2.png');background-repeat:no-repeat;}
+#But22.Up {background-position: 0 0;}
+#But22.Down {background-position: -365px 0;}
+#But22.Over {background-position: -730px 0;}
+#But22 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But22.Up p {color:#039EE9;top:6px;left:69px;}
+#But22.Down p {color:#08384E;top:7px;left:70px;}
+#But22.Over p {color:#08384E;top:6px;left:69px;}
+#But22 div {display:none;}
+#Img21 {display:none;overflow:hidden;position:absolute;left:533px;top:317px;width:288px;height:428px;z-index:54;min-width:288px;}
+#Img21Inner {position: absolute;width:288px;height:428px;border:0px;}
+#But23 {display:block;overflow:hidden;position:absolute;left:9px;top:698px;width:301px;height:35px;z-index:55;background:url('buttons/batimentsvisibles_But23.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -301px 0;}
+#But23.Over {background-position: -602px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But23.Up p {color:#039EE9;top:6px;left:50px;}
+#But23.Down p {color:#08384E;top:7px;left:51px;}
+#But23.Over p {color:#08384E;top:6px;left:50px;}
+#But23 div {display:none;}
+#Img24 {display:none;overflow:hidden;position:absolute;left:533px;top:316px;width:289px;height:443px;z-index:56;min-width:289px;}
+#Img24Inner {position: absolute;width:289px;height:443px;border:0px;}
+#Img25 {display:none;overflow:hidden;position:absolute;left:533px;top:316px;width:287px;height:442px;z-index:57;min-width:287px;}
+#Img25Inner {position: absolute;width:287px;height:442px;border:0px;}
+#But24 {display:block;overflow:hidden;position:absolute;left:12px;top:739px;width:301px;height:35px;z-index:58;background:url('buttons/batimentsvisibles_But23.png');background-repeat:no-repeat;}
+#But24.Up {background-position: 0 0;}
+#But24.Down {background-position: -301px 0;}
+#But24.Over {background-position: -602px 0;}
+#But24 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But24.Up p {color:#039EE9;top:6px;left:113px;}
+#But24.Down p {color:#08384E;top:7px;left:114px;}
+#But24.Over p {color:#08384E;top:6px;left:113px;}
+#But24 div {display:none;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:1031px;top:3px;width:264px;height:156px;z-index:59;min-width:264px;}
+#Img16Inner {position: absolute;width:264px;height:156px;border:0px;}
+#But25 {display:block;overflow:hidden;position:absolute;left:1020px;top:305px;width:286px;height:35px;z-index:60;background:url('buttons/batimentsvisibles_But7.png');background-repeat:no-repeat;}
+#But25.Up {background-position: 0 0;}
+#But25.Down {background-position: -286px 0;}
+#But25.Over {background-position: -572px 0;}
+#But25 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But25.Up p {color:#039EE9;top:6px;left:18px;}
+#But25.Down p {color:#08384E;top:7px;left:19px;}
+#But25.Over p {color:#08384E;top:6px;left:18px;}
+#But25 div {display:none;}
+#But26 {display:block;overflow:hidden;position:absolute;left:31px;top:377px;width:293px;height:35px;z-index:61;background:url('buttons/batimentsvisibles_But26.png');background-repeat:no-repeat;}
+#But26.Up {background-position: 0 0;}
+#But26.Down {background-position: -293px 0;}
+#But26.Over {background-position: -586px 0;}
+#But26 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But26.Up p {color:#039EE9;top:6px;left:59px;}
+#But26.Down p {color:#08384E;top:7px;left:60px;}
+#But26.Over p {color:#08384E;top:6px;left:59px;}
+#But26 div {display:none;}

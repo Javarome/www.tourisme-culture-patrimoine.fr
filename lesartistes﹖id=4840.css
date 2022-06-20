@@ -1,0 +1,43 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesartistes_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:350px;top:199px;width:533px;height:35px;z-index:4;background:url('buttons/lesartistes_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -533px 0;}
+#But10.Over {background-position: -1066px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:108px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:151px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:150px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1071px;top:181px;width:205px;height:65px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesartistes_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:43px;top:272px;width:273px;height:35px;z-index:8;background:url('buttons/lesartistes_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -273px 0;}
+#But4.Over {background-position: -546px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:56px;}
+#But4.Down p {color:#08384E;top:7px;left:57px;}
+#But4.Over p {color:#08384E;top:6px;left:56px;}
+#But4 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:477px;top:250px;width:678px;height:553px;z-index:9;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesartistes_Box3.png');background-repeat:no-repeat;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:570px;top:525px;width:464px;height:162px;z-index:10;min-width:464px;}
+#Img1Inner {position: absolute;width:464px;height:162px;border:0px;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:11;min-width:286px;}
+#Img8Inner {position: absolute;width:286px;height:169px;border:0px;}
+#But2{display:block;overflow:hidden;position:absolute;left:1px;top:193px;width:269px;height:62px;z-index:12;font-weight:400;font-family:"Arial";font-size:21px !important;color:rgb(252, 228, 138); text-shadow: 0 0px;}
+#But2{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But2 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But2:focus {outline:0}
+

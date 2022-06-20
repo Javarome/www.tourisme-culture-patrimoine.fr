@@ -1,0 +1,51 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:-10px;top:268px;width:1313px;height:586px;z-index:2;min-width:1313px;}
+#Img16Inner {position: absolute;width:1313px;height:586px;border:0px;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-13px;top:2px;width:1343px;height:259px;z-index:3;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-maison-du-tourisme_Box1.png');background-repeat:no-repeat;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:219px;top:48px;width:763px;height:124px;z-index:4;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:32px;top:37px;width:138px;height:138px;z-index:5;min-width:138px;}
+#Img4Inner {position: absolute;width:138px;height:138px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:-10px;top:243px;width:1312px;height:171px;z-index:6;min-width:1312px;}
+#Img2Inner {position: absolute;width:1312px;height:171px;border:0px;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:6px;top:244px;width:161px;height:20px;z-index:7;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:699px;top:412px;width:505px;height:379px;z-index:8;min-width:505px;}
+#Img1Inner {position: absolute;width:505px;height:379px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:936px;top:18px;width:357px;height:211px;z-index:9;min-width:357px;}
+#Img3Inner {position: absolute;width:357px;height:211px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:6px;top:181px;width:201px;height:64px;z-index:10;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:88px;top:413px;width:502px;height:377px;z-index:11;min-width:502px;}
+#Img5Inner {position: absolute;width:502px;height:377px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:199px;top:209px;width:251px;height:35px;z-index:12;background:url('buttons/la-maison-du-tourisme_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But8.Up p {color:#FFFFFF;top:2px;left:68px;}
+#But8.Down p {color:#08384E;top:3px;left:69px;}
+#But8.Over p {color:#FCE48A;top:2px;left:68px;}
+#But8 div {display:none;}
+#But23 {display:block;overflow:hidden;position:absolute;left:708px;top:209px;width:251px;height:35px;z-index:13;background:url('buttons/la-maison-du-tourisme_But8.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -251px 0;}
+#But23.Over {background-position: -502px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But23.Up p {color:#FFFFFF;top:2px;left:88px;}
+#But23.Down p {color:#08384E;top:3px;left:89px;}
+#But23.Over p {color:#FCE48A;top:2px;left:88px;}
+#But23 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:312px;top:164px;width:551px;height:35px;z-index:14;background:url('buttons/la-maison-du-tourisme_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -551px 0;}
+#But10.Over {background-position: -1102px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:119px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:161px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:160px;}
+#But10 div {display:none;}

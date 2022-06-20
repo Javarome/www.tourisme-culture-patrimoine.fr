@@ -1,0 +1,127 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:-10px;top:268px;width:1313px;height:586px;z-index:2;min-width:1313px;}
+#Img16Inner {position: absolute;width:1313px;height:586px;border:0px;}
+#But11 {display:block;overflow:hidden;position:absolute;left:326px;top:415px;width:251px;height:35px;z-index:3;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -251px 0;}
+#But11.Over {background-position: -502px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But11.Up p {color:#FFFFFF;top:6px;left:42px;}
+#But11.Down p {color:#08384E;top:7px;left:43px;}
+#But11.Over p {color:#08384E;top:6px;left:42px;}
+#But11 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-13px;top:2px;width:1343px;height:259px;z-index:4;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/cultureindex_Box1.png');background-repeat:no-repeat;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1001px;top:4px;width:286px;height:169px;z-index:5;min-width:286px;}
+#Img3Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:242px;top:53px;width:763px;height:124px;z-index:6;}
+#But8 {display:block;overflow:hidden;position:absolute;left:212px;top:207px;width:251px;height:35px;z-index:7;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But8.Up p {color:#FFFFFF;top:2px;left:68px;}
+#But8.Down p {color:#08384E;top:3px;left:69px;}
+#But8.Over p {color:#FCE48A;top:2px;left:68px;}
+#But8 div {display:none;}
+#Text4 {word-wrap:break-word; overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:1042px;top:192px;width:247px;height:30px;z-index:8;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:4px;top:2px;width:163px;height:163px;z-index:9;min-width:163px;}
+#Img4Inner {position: absolute;width:163px;height:163px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:-10px;top:243px;width:1312px;height:171px;z-index:10;min-width:1312px;}
+#Img2Inner {position: absolute;width:1312px;height:171px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:41px;top:381px;width:251px;height:35px;z-index:11;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -251px 0;}
+#But7.Over {background-position: -502px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But7.Up p {color:#08384F;top:2px;left:46px;}
+#But7.Down p {color:#EFD79E;top:3px;left:47px;}
+#But7.Over p {color:#E3CE79;top:2px;left:46px;}
+#But7 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:597px;top:377px;width:291px;height:35px;z-index:12;background:url('buttons/cultureindex_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -291px 0;}
+#But13.Over {background-position: -582px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But13.Up p {color:#07384E;top:2px;left:41px;}
+#But13.Down p {color:#F1D673;top:3px;left:42px;}
+#But13.Over p {color:#E0C06C;top:2px;left:41px;}
+#But13 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:333px;top:377px;width:251px;height:35px;z-index:13;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But10.Up p {color:#08384F;top:2px;left:49px;}
+#But10.Down p {color:#EFD79E;top:3px;left:50px;}
+#But10.Over p {color:#E3CE79;top:2px;left:49px;}
+#But10 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:983px;top:377px;width:291px;height:35px;z-index:14;background:url('buttons/cultureindex_But13.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -291px 0;}
+#But18.Over {background-position: -582px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But18.Up p {color:#07384E;top:2px;left:30px;}
+#But18.Down p {color:#F1D673;top:3px;left:31px;}
+#But18.Over p {color:#E0C06C;top:2px;left:30px;}
+#But18 div {display:none;}
+#But23 {display:block;overflow:hidden;position:absolute;left:755px;top:211px;width:251px;height:35px;z-index:15;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -251px 0;}
+#But23.Over {background-position: -502px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But23.Up p {color:#FFFFFF;top:2px;left:88px;}
+#But23.Down p {color:#08384E;top:3px;left:89px;}
+#But23.Over p {color:#FCE48A;top:2px;left:88px;}
+#But23 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:6px;top:244px;width:242px;height:20px;z-index:16;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:583px;top:421px;width:567px;height:378px;z-index:17;min-width:567px;}
+#Img1Inner {position: absolute;width:567px;height:378px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:14px;top:334px;width:320px;height:459px;z-index:18;min-width:320px;}
+#Img8Inner {position: absolute;width:320px;height:459px;border:0px;}
+#Obj1 {word-wrap:break-word; display:none;position:absolute;left:3px;top:173px;width:197px;height:58px;z-index:19;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:15px;top:411px;width:320px;height:170px;z-index:20;min-width:320px;}
+#Img6Inner {position: absolute;width:320px;height:170px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:16px;top:583px;width:317px;height:158px;z-index:21;min-width:317px;}
+#Img7Inner {position: absolute;width:317px;height:158px;border:0px;}
+#But1 {display:block;overflow:hidden;position:absolute;left:332px;top:500px;width:251px;height:35px;z-index:22;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -251px 0;}
+#But1.Over {background-position: -502px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#FFFFFF;top:6px;left:31px;}
+#But1.Down p {color:#08384E;top:7px;left:32px;}
+#But1.Over p {color:#08384E;top:6px;left:31px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:320px;top:543px;width:251px;height:35px;z-index:23;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -251px 0;}
+#But2.Over {background-position: -502px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#FFFFFF;top:6px;left:68px;}
+#But2.Down p {color:#08384E;top:7px;left:69px;}
+#But2.Over p {color:#08384E;top:6px;left:68px;}
+#But2 div {display:none;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:554px;top:425px;width:748px;height:316px;z-index:24;min-width:748px;}
+#Img9Inner {position: absolute;width:748px;height:316px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:-10px;top:425px;width:354px;height:279px;z-index:25;min-width:354px;}
+#Img10Inner {position: absolute;width:354px;height:279px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:653px;top:425px;width:428px;height:389px;z-index:26;min-width:428px;}
+#Img5Inner {position: absolute;width:428px;height:389px;border:0px;}
+#But3 {display:block;overflow:hidden;position:absolute;left:332px;top:460px;width:251px;height:35px;z-index:27;background:url('buttons/cultureindex_But11.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -251px 0;}
+#But3.Over {background-position: -502px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#FFFFFF;top:6px;left:40px;}
+#But3.Down p {color:#08384E;top:7px;left:41px;}
+#But3.Over p {color:#08384E;top:6px;left:40px;}
+#But3 div {display:none;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:693px;top:411px;width:469px;height:359px;z-index:28;min-width:469px;}
+#Img11Inner {position: absolute;width:469px;height:359px;border:0px;}

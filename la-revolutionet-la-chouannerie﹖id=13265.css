@@ -1,0 +1,128 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-revolutionet-la-chouannerie_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:409px;top:199px;width:426px;height:35px;z-index:4;background:url('buttons/la-revolutionet-la-chouannerie_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -426px 0;}
+#But10.Over {background-position: -852px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:6px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:62px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:61px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1059px;top:181px;width:205px;height:65px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-revolutionet-la-chouannerie_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:45px;top:272px;width:346px;height:35px;z-index:8;background:url('buttons/la-revolutionet-la-chouannerie_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -346px 0;}
+#But4.Over {background-position: -692px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:50px;}
+#But4.Down p {color:#08384E;top:7px;left:51px;}
+#But4.Over p {color:#08384E;top:6px;left:50px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:29px;top:318px;width:315px;height:35px;z-index:9;background:url('buttons/la-revolutionet-la-chouannerie_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -315px 0;}
+#But1.Over {background-position: -630px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:62px;}
+#But1.Down p {color:#08384E;top:7px;left:63px;}
+#But1.Over p {color:#08384E;top:6px;left:62px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:18px;top:360px;width:355px;height:35px;z-index:10;background:url('buttons/la-revolutionet-la-chouannerie_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -355px 0;}
+#But2.Over {background-position: -710px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:52px;}
+#But2.Down p {color:#08384E;top:7px;left:53px;}
+#But2.Over p {color:#08384E;top:6px;left:52px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:45px;top:401px;width:271px;height:35px;z-index:11;background:url('buttons/la-revolutionet-la-chouannerie_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -271px 0;}
+#But3.Over {background-position: -542px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:72px;}
+#But3.Down p {color:#08384E;top:7px;left:73px;}
+#But3.Over p {color:#08384E;top:6px;left:72px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:15px;top:444px;width:329px;height:35px;z-index:12;background:url('buttons/la-revolutionet-la-chouannerie_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -329px 0;}
+#But5.Over {background-position: -658px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:88px;}
+#But5.Down p {color:#08384E;top:7px;left:89px;}
+#But5.Over p {color:#08384E;top:6px;left:88px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:8px;top:493px;width:386px;height:35px;z-index:13;background:url('buttons/la-revolutionet-la-chouannerie_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -386px 0;}
+#But6.Over {background-position: -772px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:104px;}
+#But6.Down p {color:#08384E;top:7px;left:105px;}
+#But6.Over p {color:#08384E;top:6px;left:104px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:18px;top:537px;width:338px;height:35px;z-index:14;background:url('buttons/la-revolutionet-la-chouannerie_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -338px 0;}
+#But7.Over {background-position: -676px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:106px;}
+#But7.Down p {color:#08384E;top:7px;left:107px;}
+#But7.Over p {color:#08384E;top:6px;left:106px;}
+#But7 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:403px;top:248px;width:678px;height:553px;z-index:15;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-revolutionet-la-chouannerie_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:465px;top:344px;width:533px;height:294px;z-index:16;min-width:533px;}
+#Img2Inner {position: absolute;width:533px;height:294px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:476px;top:425px;width:526px;height:184px;z-index:17;min-width:526px;}
+#Img4Inner {position: absolute;width:526px;height:184px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:11px;top:755px;width:338px;height:35px;z-index:18;background:url('buttons/la-revolutionet-la-chouannerie_But7.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -338px 0;}
+#But8.Over {background-position: -676px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:111px;}
+#But8.Down p {color:#08384E;top:7px;left:112px;}
+#But8.Over p {color:#08384E;top:6px;left:111px;}
+#But8 div {display:none;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:545px;top:405px;width:411px;height:255px;z-index:19;min-width:411px;}
+#Img5Inner {position: absolute;width:411px;height:255px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:545px;top:404px;width:373px;height:241px;z-index:20;min-width:373px;}
+#Img6Inner {position: absolute;width:373px;height:241px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:500px;top:360px;width:463px;height:313px;z-index:21;min-width:463px;}
+#Img7Inner {position: absolute;width:463px;height:313px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:597px;top:360px;width:309px;height:367px;z-index:22;min-width:309px;}
+#Img8Inner {position: absolute;width:309px;height:367px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:527px;top:344px;width:393px;height:377px;z-index:23;min-width:393px;}
+#Img9Inner {position: absolute;width:393px;height:377px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:472px;top:398px;width:504px;height:259px;z-index:24;min-width:504px;}
+#Img10Inner {position: absolute;width:504px;height:259px;border:0px;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:548px;top:401px;width:407px;height:219px;z-index:25;min-width:407px;}
+#Img1Inner {position: absolute;width:407px;height:219px;border:0px;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:26;min-width:286px;}
+#Img11Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:8px;top:192px;width:201px;height:64px;z-index:27;}
+#But9 {display:block;overflow:hidden;position:absolute;left:18px;top:592px;width:386px;height:35px;z-index:28;background:url('buttons/la-revolutionet-la-chouannerie_But6.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -386px 0;}
+#But9.Over {background-position: -772px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:-2px;}
+#But9.Down p {color:#08384E;top:7px;left:-1px;}
+#But9.Over p {color:#08384E;top:6px;left:-2px;}
+#But9 div {display:none;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:553px;top:352px;width:396px;height:356px;z-index:29;min-width:396px;}
+#Img12Inner {position: absolute;width:396px;height:356px;border:0px;}

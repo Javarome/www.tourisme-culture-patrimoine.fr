@@ -1,0 +1,39 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Text3 {word-wrap:break-word; display:block;position:absolute;left:671px;top:330px;width:300px;height:85px;z-index:2;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-6px;top:2px;width:1343px;height:269px;z-index:3;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-plage_Box1.png');background-repeat:no-repeat;}
+#Obj4 {word-wrap:break-word; display:block;position:absolute;left:242px;top:53px;width:763px;height:124px;z-index:4;}
+#But8 {display:block;overflow:hidden;position:absolute;left:376px;top:205px;width:505px;height:35px;z-index:5;background:url('buttons/la-plage_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -505px 0;}
+#But8.Over {background-position: -1010px 0;}
+#But8 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But8.Up p {font-size:27px;color:#FFFFFF;top:2px;left:17px;}
+#But8.Down p {font-size:20px;color:#08384E;top:7px;left:80px;}
+#But8.Over p {font-size:20px;color:#08384E;top:6px;left:79px;}
+#But8 div {display:none;}
+#But1{display:block;overflow:hidden;position:absolute;left:994px;top:179px;width:313px;height:63px;z-index:6;font-weight:400;font-family:"Arial";font-size:21px !important;color:rgb(252, 228, 138); text-shadow: 0 0px;}
+#But1{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But1 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But1:focus {outline:0}
+
+#Img6 {display:block;overflow:hidden;position:absolute;left:8px;top:9px;width:180px;height:180px;z-index:7;min-width:180px;}
+#Img6Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:1px;top:261px;width:1309px;height:544px;z-index:8;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-plage_Box2.png');background-repeat:no-repeat;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:300px;top:351px;width:884px;height:74px;z-index:9;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:15px;top:404px;width:471px;height:353px;z-index:10;min-width:471px;}
+#Img1Inner {position: absolute;width:471px;height:353px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:790px;top:401px;width:479px;height:359px;z-index:11;min-width:479px;}
+#Img3Inner {position: absolute;width:479px;height:359px;border:0px;}
+#Img7 {display:block;overflow:hidden;position:absolute;left:463px;top:469px;width:355px;height:224px;z-index:12;min-width:355px;}
+#Img7Inner {position: absolute;width:355px;height:224px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:13;min-width:286px;}
+#Img2Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:8px;top:192px;width:201px;height:64px;z-index:14;}

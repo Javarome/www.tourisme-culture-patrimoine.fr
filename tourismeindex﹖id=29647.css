@@ -1,0 +1,146 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:-10px;top:268px;width:1313px;height:586px;z-index:2;min-width:1313px;}
+#Img16Inner {position: absolute;width:1313px;height:586px;border:0px;}
+#But1 {display:block;overflow:hidden;position:absolute;left:15px;top:415px;width:279px;height:35px;z-index:3;background:url('buttons/tourismeindex_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -279px 0;}
+#But1.Over {background-position: -558px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#FFFFFF;top:6px;left:6px;}
+#But1.Down p {color:#08384E;top:7px;left:7px;}
+#But1.Over p {color:#08384E;top:6px;left:6px;}
+#But1 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:6px;top:449px;width:251px;height:35px;z-index:4;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -251px 0;}
+#But4.Over {background-position: -502px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#FFFFFF;top:6px;left:64px;}
+#But4.Down p {color:#08384E;top:7px;left:65px;}
+#But4.Over p {color:#08384E;top:6px;left:64px;}
+#But4 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:29px;top:530px;width:233px;height:35px;z-index:5;background:url('buttons/tourismeindex_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -233px 0;}
+#But5.Over {background-position: -466px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#FFFFFF;top:6px;left:57px;}
+#But5.Down p {color:#08384E;top:7px;left:58px;}
+#But5.Over p {color:#08384E;top:6px;left:57px;}
+#But5 div {display:none;}
+#But14 {display:block;overflow:hidden;position:absolute;left:11px;top:570px;width:251px;height:35px;z-index:6;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -251px 0;}
+#But14.Over {background-position: -502px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But14.Up p {color:#FFFFFF;top:6px;left:37px;}
+#But14.Down p {color:#08384E;top:7px;left:38px;}
+#But14.Over p {color:#08384E;top:6px;left:37px;}
+#But14 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-13px;top:2px;width:1343px;height:259px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/tourismeindex_Box1.png');background-repeat:no-repeat;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1001px;top:4px;width:286px;height:169px;z-index:8;min-width:286px;}
+#Img3Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:242px;top:53px;width:763px;height:124px;z-index:9;}
+#But8 {display:block;overflow:hidden;position:absolute;left:212px;top:207px;width:251px;height:35px;z-index:10;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But8.Up p {color:#FFFFFF;top:2px;left:68px;}
+#But8.Down p {color:#08384E;top:3px;left:69px;}
+#But8.Over p {color:#FCE48A;top:2px;left:68px;}
+#But8 div {display:none;}
+#Text4 {word-wrap:break-word; overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:1031px;top:188px;width:270px;height:28px;z-index:11;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:353px;top:258px;width:660px;height:533px;z-index:12;min-width:660px;}
+#Img1Inner {position: absolute;width:660px;height:533px;border:0px;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:32px;top:37px;width:138px;height:138px;z-index:13;min-width:138px;}
+#Img4Inner {position: absolute;width:138px;height:138px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:424px;top:389px;width:590px;height:370px;z-index:14;min-width:590px;}
+#Img6Inner {position: absolute;width:590px;height:370px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:704px;top:418px;width:293px;height:338px;z-index:15;min-width:293px;}
+#Img10Inner {position: absolute;width:293px;height:338px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:424px;top:415px;width:261px;height:340px;z-index:16;min-width:261px;}
+#Img11Inner {position: absolute;width:261px;height:340px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:424px;top:418px;width:590px;height:340px;z-index:17;min-width:590px;}
+#Img14Inner {position: absolute;width:590px;height:340px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:424px;top:415px;width:588px;height:333px;z-index:18;min-width:588px;}
+#Img7Inner {position: absolute;width:588px;height:333px;border:0px;}
+#Img13 {display:none;overflow:hidden;position:absolute;left:421px;top:418px;width:534px;height:343px;z-index:19;min-width:534px;}
+#Img13Inner {position: absolute;width:534px;height:343px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:-3px;top:245px;width:1312px;height:171px;z-index:20;min-width:1312px;}
+#Img2Inner {position: absolute;width:1312px;height:171px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:25px;top:379px;width:251px;height:35px;z-index:21;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -251px 0;}
+#But7.Over {background-position: -502px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But7.Up p {color:#08384F;top:2px;left:46px;}
+#But7.Down p {color:#EFD79E;top:3px;left:47px;}
+#But7.Over p {color:#E3CE79;top:2px;left:46px;}
+#But7 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:597px;top:377px;width:291px;height:35px;z-index:22;background:url('buttons/tourismeindex_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -291px 0;}
+#But13.Over {background-position: -582px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But13.Up p {color:#07384E;top:2px;left:41px;}
+#But13.Down p {color:#F1D673;top:3px;left:42px;}
+#But13.Over p {color:#E0C06C;top:2px;left:41px;}
+#But13 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:333px;top:377px;width:251px;height:35px;z-index:23;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But10.Up p {color:#08384F;top:2px;left:49px;}
+#But10.Down p {color:#EFD79E;top:3px;left:50px;}
+#But10.Over p {color:#E3CE79;top:2px;left:49px;}
+#But10 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:983px;top:377px;width:291px;height:35px;z-index:24;background:url('buttons/tourismeindex_But13.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -291px 0;}
+#But18.Over {background-position: -582px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But18.Up p {color:#07384E;top:2px;left:30px;}
+#But18.Down p {color:#F1D673;top:3px;left:31px;}
+#But18.Over p {color:#E0C06C;top:2px;left:30px;}
+#But18 div {display:none;}
+#But23 {display:block;overflow:hidden;position:absolute;left:755px;top:211px;width:251px;height:35px;z-index:25;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -251px 0;}
+#But23.Over {background-position: -502px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But23.Up p {color:#FFFFFF;top:2px;left:88px;}
+#But23.Down p {color:#08384E;top:3px;left:89px;}
+#But23.Over p {color:#FCE48A;top:2px;left:88px;}
+#But23 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:6px;top:244px;width:266px;height:20px;z-index:26;}
+#But2 {display:block;overflow:hidden;position:absolute;left:1px;top:610px;width:270px;height:35px;z-index:27;background:url('buttons/tourismeindex_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -270px 0;}
+#But2.Over {background-position: -540px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#FFFFFF;top:6px;left:5px;}
+#But2.Down p {color:#08384E;top:7px;left:6px;}
+#But2.Over p {color:#08384E;top:6px;left:5px;}
+#But2 div {display:none;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:360px;top:250px;width:681px;height:550px;z-index:28;min-width:681px;}
+#Img5Inner {position: absolute;width:681px;height:550px;border:0px;}
+#But3 {display:block;overflow:hidden;position:absolute;left:20px;top:490px;width:251px;height:35px;z-index:29;background:url('buttons/tourismeindex_But4.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -251px 0;}
+#But3.Over {background-position: -502px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#FFFFFF;top:6px;left:9px;}
+#But3.Down p {color:#08384E;top:7px;left:10px;}
+#But3.Over p {color:#08384E;top:6px;left:9px;}
+#But3 div {display:none;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:410px;top:191px;width:414px;height:559px;z-index:30;min-width:414px;}
+#Img8Inner {position: absolute;width:414px;height:559px;border:0px;}

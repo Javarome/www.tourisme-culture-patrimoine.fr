@@ -1,0 +1,159 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-4px;top:262px;width:1309px;height:539px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-cartes-de-la-frontiere_Box2.png');background-repeat:no-repeat;}
+#Text3 {word-wrap:break-word; display:block;position:absolute;left:671px;top:330px;width:300px;height:85px;z-index:3;}
+#Text5 {word-wrap:break-word; display:block;position:absolute;left:734px;top:381px;width:300px;height:29px;z-index:4;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:699px;top:381px;width:300px;height:29px;z-index:5;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:716px;top:457px;width:300px;height:29px;z-index:6;}
+#Text6 {word-wrap:break-word; display:block;position:absolute;left:318px;top:370px;width:895px;height:39px;z-index:7;}
+#Obj3 {word-wrap:break-word; display:block;position:absolute;left:-158px;top:434px;width:735px;height:39px;z-index:8;}
+#Obj5 {word-wrap:break-word; display:block;position:absolute;left:269px;top:521px;width:895px;height:39px;z-index:9;}
+#But21 {display:block;overflow:hidden;position:absolute;left:182px;top:634px;width:251px;height:35px;z-index:10;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But21.Up {background-position: 0 0;}
+#But21.Down {background-position: -251px 0;}
+#But21.Over {background-position: -502px 0;}
+#But21 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But21.Up p {color:#039EE9;top:6px;left:19px;}
+#But21.Down p {color:#08384E;top:7px;left:20px;}
+#But21.Over p {color:#08384E;top:6px;left:19px;}
+#But21 div {display:none;}
+#But17 {display:block;overflow:hidden;position:absolute;left:222px;top:325px;width:251px;height:35px;z-index:11;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -251px 0;}
+#But17.Over {background-position: -502px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But17.Up p {color:#039EE9;top:6px;left:3px;}
+#But17.Down p {color:#08384E;top:7px;left:4px;}
+#But17.Over p {color:#09374E;top:6px;left:3px;}
+#But17 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:222px;top:365px;width:251px;height:35px;z-index:12;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -251px 0;}
+#But2.Over {background-position: -502px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:22px;}
+#But2.Down p {color:#08384E;top:7px;left:23px;}
+#But2.Over p {color:#08384E;top:6px;left:22px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:204px;top:401px;width:287px;height:35px;z-index:13;background:url('buttons/les-cartes-de-la-frontiere_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -287px 0;}
+#But3.Over {background-position: -574px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:65px;}
+#But3.Down p {color:#08384E;top:7px;left:66px;}
+#But3.Over p {color:#08394C;top:6px;left:65px;}
+#But3 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:204px;top:435px;width:251px;height:35px;z-index:14;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -251px 0;}
+#But4.Over {background-position: -502px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:5px;}
+#But4.Down p {color:#08384E;top:7px;left:6px;}
+#But4.Over p {color:#08384E;top:6px;left:5px;}
+#But4 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:54px;top:473px;width:507px;height:35px;z-index:15;background:url('buttons/les-cartes-de-la-frontiere_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -507px 0;}
+#But5.Over {background-position: -1014px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:32px;}
+#But5.Down p {color:#08384E;top:7px;left:33px;}
+#But5.Over p {color:#08384E;top:6px;left:32px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:83px;top:513px;width:431px;height:35px;z-index:16;background:url('buttons/les-cartes-de-la-frontiere_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -431px 0;}
+#But6.Over {background-position: -862px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:5px;}
+#But6.Down p {color:#06364A;top:7px;left:6px;}
+#But6.Over p {color:#08384E;top:6px;left:5px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:161px;top:554px;width:294px;height:35px;z-index:17;background:url('buttons/les-cartes-de-la-frontiere_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -294px 0;}
+#But7.Over {background-position: -588px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:6px;}
+#But7.Down p {color:#08384E;top:7px;left:7px;}
+#But7.Over p {color:#08384E;top:6px;left:6px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:190px;top:594px;width:251px;height:35px;z-index:18;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:22px;}
+#But8.Down p {color:#08384E;top:7px;left:23px;}
+#But8.Over p {color:#08384E;top:6px;left:22px;}
+#But8 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:182px;top:676px;width:251px;height:35px;z-index:19;background:url('buttons/les-cartes-de-la-frontiere_But21.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But10.Up p {color:#039EE9;top:6px;left:7px;}
+#But10.Down p {color:#09374E;top:7px;left:8px;}
+#But10.Over p {color:#08384E;top:6px;left:7px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:165px;top:720px;width:308px;height:35px;z-index:20;background:url('buttons/les-cartes-de-la-frontiere_But11.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -308px 0;}
+#But11.Over {background-position: -616px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But11.Up p {color:#039EE9;top:6px;left:114px;}
+#But11.Down p {color:#09374E;top:7px;left:115px;}
+#But11.Over p {color:#08384E;top:6px;left:114px;}
+#But11 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-15px;top:-3px;width:1343px;height:280px;z-index:21;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-cartes-de-la-frontiere_Box1.png');background-repeat:no-repeat;}
+#Obj6 {word-wrap:break-word; display:block;position:absolute;left:282px;top:42px;width:763px;height:124px;z-index:22;}
+#But9 {display:block;overflow:hidden;position:absolute;left:380px;top:204px;width:634px;height:35px;z-index:23;background:url('buttons/les-cartes-de-la-frontiere_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -634px 0;}
+#But9.Over {background-position: -1268px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But9.Up p {font-size:27px;color:#FFFFFF;top:2px;left:11px;}
+#But9.Down p {font-size:20px;color:#08384E;top:7px;left:92px;}
+#But9.Over p {font-size:20px;color:#08384E;top:6px;left:91px;}
+#But9 div {display:none;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:43px;top:26px;width:180px;height:180px;z-index:24;min-width:180px;}
+#Img6Inner {position: absolute;width:180px;height:180px;border:0px;}
+#But1{display:block;overflow:hidden;position:absolute;left:-13px;top:185px;width:314px;height:85px;z-index:25;font-weight:400;font-family:"Arial";font-size:21px !important;color:rgb(252, 228, 138); text-shadow: 0 0px;}
+#But1{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But1 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But1:focus {outline:0}
+
+#Box3 {display:none;overflow:hidden;position:absolute;left:634px;top:267px;width:650px;height:530px;z-index:26;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-cartes-de-la-frontiere_Box3.png');background-repeat:no-repeat;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:636px;top:315px;width:626px;height:426px;z-index:27;min-width:626px;}
+#Img1Inner {position: absolute;width:626px;height:426px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:647px;top:315px;width:619px;height:426px;z-index:28;min-width:619px;}
+#Img2Inner {position: absolute;width:619px;height:426px;border:0px;}
+#Img3 {display:none;overflow:hidden;position:absolute;left:654px;top:316px;width:615px;height:425px;z-index:29;min-width:615px;}
+#Img3Inner {position: absolute;width:615px;height:425px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:634px;top:314px;width:607px;height:426px;z-index:30;min-width:607px;}
+#Img4Inner {position: absolute;width:607px;height:426px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:644px;top:315px;width:625px;height:431px;z-index:31;min-width:625px;}
+#Img5Inner {position: absolute;width:625px;height:431px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:806px;top:269px;width:370px;height:508px;z-index:32;min-width:370px;}
+#Img7Inner {position: absolute;width:370px;height:508px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:811px;top:266px;width:348px;height:508px;z-index:33;min-width:348px;}
+#Img8Inner {position: absolute;width:348px;height:508px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:806px;top:276px;width:370px;height:501px;z-index:34;min-width:370px;}
+#Img9Inner {position: absolute;width:370px;height:501px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:811px;top:273px;width:367px;height:524px;z-index:35;min-width:367px;}
+#Img10Inner {position: absolute;width:367px;height:524px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:811px;top:273px;width:359px;height:516px;z-index:36;min-width:359px;}
+#Img11Inner {position: absolute;width:359px;height:516px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:828px;top:277px;width:348px;height:517px;z-index:37;min-width:348px;}
+#Img12Inner {position: absolute;width:348px;height:517px;border:0px;}
+#Img13 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:38;min-width:286px;}
+#Img13Inner {position: absolute;width:286px;height:169px;border:0px;}

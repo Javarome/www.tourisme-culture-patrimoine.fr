@@ -1,0 +1,71 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/l27administration2c-les-impots_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:295px;top:43px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:547px;top:197px;width:389px;height:35px;z-index:4;background:url('buttons/l27administration2c-les-impots_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -389px 0;}
+#But10.Over {background-position: -778px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:9px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:59px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:58px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1100px;top:180px;width:168px;height:63px;z-index:5;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:6;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/l27administration2c-les-impots_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:274px;width:391px;height:35px;z-index:7;background:url('buttons/l27administration2c-les-impots_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -391px 0;}
+#But4.Over {background-position: -782px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:116px;}
+#But4.Down p {color:#08384E;top:7px;left:117px;}
+#But4.Over p {color:#08384E;top:6px;left:116px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:375px;height:35px;z-index:8;background:url('buttons/l27administration2c-les-impots_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -375px 0;}
+#But1.Over {background-position: -750px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:47px;}
+#But1.Down p {color:#08384E;top:7px;left:48px;}
+#But1.Over p {color:#08384E;top:6px;left:47px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:33px;top:412px;width:365px;height:35px;z-index:9;background:url('buttons/l27administration2c-les-impots_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:78px;}
+#But2.Down p {color:#08384E;top:7px;left:79px;}
+#But2.Over p {color:#08384E;top:6px;left:78px;}
+#But2 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:442px;top:254px;width:678px;height:553px;z-index:10;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/l27administration2c-les-impots_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:508px;top:326px;width:545px;height:501px;z-index:11;min-width:545px;}
+#Img2Inner {position: absolute;width:545px;height:501px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:532px;top:326px;width:477px;height:388px;z-index:12;min-width:477px;}
+#Img4Inner {position: absolute;width:477px;height:388px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:554px;top:326px;width:471px;height:379px;z-index:13;min-width:471px;}
+#Img5Inner {position: absolute;width:471px;height:379px;border:0px;}
+#But3 {display:block;overflow:hidden;position:absolute;left:26px;top:488px;width:321px;height:35px;z-index:14;background:url('buttons/l27administration2c-les-impots_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -321px 0;}
+#But3.Over {background-position: -642px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:103px;}
+#But3.Down p {color:#08384E;top:7px;left:104px;}
+#But3.Over p {color:#08384E;top:6px;left:103px;}
+#But3 div {display:none;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:581px;top:364px;width:407px;height:219px;z-index:15;min-width:407px;}
+#Img6Inner {position: absolute;width:407px;height:219px;border:0px;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:16;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:5px;top:4px;width:180px;height:180px;z-index:17;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:26px;top:191px;width:206px;height:67px;z-index:18;}

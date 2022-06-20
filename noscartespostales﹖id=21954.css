@@ -1,0 +1,89 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/noscartespostales_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:495px;top:199px;width:273px;height:35px;z-index:4;background:url('buttons/noscartespostales_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -273px 0;}
+#But10.Over {background-position: -546px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:4px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:40px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:39px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:4px;top:182px;width:168px;height:63px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:5px;top:4px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/noscartespostales_Box2.png');background-repeat:no-repeat;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:43px;top:215px;width:135px;height:94px;z-index:8;min-width:135px;}
+#Img8Inner {position: absolute;width:135px;height:94px;border:0px;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:477px;top:250px;width:678px;height:553px;z-index:9;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/noscartespostales_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:37px;top:282px;width:135px;height:94px;z-index:10;min-width:135px;}
+#Img2Inner {position: absolute;width:135px;height:94px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:573px;height:400px;z-index:11;min-width:573px;}
+#Img4Inner {position: absolute;width:573px;height:400px;border:0px;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:37px;top:375px;width:133px;height:93px;z-index:12;min-width:133px;}
+#Img5Inner {position: absolute;width:133px;height:93px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:569px;height:397px;z-index:13;min-width:569px;}
+#Img6Inner {position: absolute;width:569px;height:397px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:573px;height:400px;z-index:14;min-width:573px;}
+#Img7Inner {position: absolute;width:573px;height:400px;border:0px;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:37px;top:562px;width:133px;height:93px;z-index:15;min-width:133px;}
+#Img9Inner {position: absolute;width:133px;height:93px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:572px;height:399px;z-index:16;min-width:572px;}
+#Img10Inner {position: absolute;width:572px;height:399px;border:0px;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:173px;top:282px;width:126px;height:180px;z-index:17;min-width:126px;}
+#Img11Inner {position: absolute;width:126px;height:180px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:643px;top:290px;width:342px;height:489px;z-index:18;min-width:342px;}
+#Img12Inner {position: absolute;width:342px;height:489px;border:0px;}
+#Img13 {display:block;overflow:hidden;position:absolute;left:168px;top:463px;width:129px;height:184px;z-index:19;min-width:129px;}
+#Img13Inner {position: absolute;width:129px;height:184px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:643px;top:290px;width:338px;height:483px;z-index:20;min-width:338px;}
+#Img14Inner {position: absolute;width:338px;height:483px;border:0px;}
+#Img15 {display:block;overflow:hidden;position:absolute;left:298px;top:282px;width:135px;height:94px;z-index:21;min-width:135px;}
+#Img15Inner {position: absolute;width:135px;height:94px;border:0px;}
+#Img16 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:569px;height:397px;z-index:22;min-width:569px;}
+#Img16Inner {position: absolute;width:569px;height:397px;border:0px;}
+#Img17 {display:block;overflow:hidden;position:absolute;left:298px;top:375px;width:134px;height:94px;z-index:23;min-width:134px;}
+#Img17Inner {position: absolute;width:134px;height:94px;border:0px;}
+#Img18 {display:none;overflow:hidden;position:absolute;left:529px;top:354px;width:567px;height:397px;z-index:24;min-width:567px;}
+#Img18Inner {position: absolute;width:567px;height:397px;border:0px;}
+#Img19 {display:block;overflow:hidden;position:absolute;left:297px;top:469px;width:136px;height:95px;z-index:25;min-width:136px;}
+#Img19Inner {position: absolute;width:136px;height:95px;border:0px;}
+#Img20 {display:none;overflow:hidden;position:absolute;left:530px;top:346px;width:568px;height:397px;z-index:26;min-width:568px;}
+#Img20Inner {position: absolute;width:568px;height:397px;border:0px;}
+#Img21 {display:block;overflow:hidden;position:absolute;left:294px;top:556px;width:141px;height:98px;z-index:27;min-width:141px;}
+#Img21Inner {position: absolute;width:141px;height:98px;border:0px;}
+#Img22 {display:none;overflow:hidden;position:absolute;left:529px;top:346px;width:578px;height:402px;z-index:28;min-width:578px;}
+#Img22Inner {position: absolute;width:578px;height:402px;border:0px;}
+#Img23 {display:block;overflow:hidden;position:absolute;left:36px;top:655px;width:134px;height:93px;z-index:29;min-width:134px;}
+#Img23Inner {position: absolute;width:134px;height:93px;border:0px;}
+#Img24 {display:none;overflow:hidden;position:absolute;left:529px;top:346px;width:575px;height:400px;z-index:30;min-width:575px;}
+#Img24Inner {position: absolute;width:575px;height:400px;border:0px;}
+#Img25 {display:block;overflow:hidden;position:absolute;left:159px;top:647px;width:144px;height:100px;z-index:31;min-width:144px;}
+#Img25Inner {position: absolute;width:144px;height:100px;border:0px;}
+#Img26 {display:none;overflow:hidden;position:absolute;left:530px;top:346px;width:566px;height:393px;z-index:32;min-width:566px;}
+#Img26Inner {position: absolute;width:566px;height:393px;border:0px;}
+#Img27 {display:block;overflow:hidden;position:absolute;left:301px;top:649px;width:134px;height:101px;z-index:33;min-width:134px;}
+#Img27Inner {position: absolute;width:134px;height:101px;border:0px;}
+#Img28 {display:none;overflow:hidden;position:absolute;left:529px;top:346px;width:527px;height:395px;z-index:34;min-width:527px;}
+#Img28Inner {position: absolute;width:527px;height:395px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:54px;top:753px;width:354px;height:35px;z-index:35;background:url('buttons/noscartespostales_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -354px 0;}
+#But7.Over {background-position: -708px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#FFFFFF;top:6px;left:88px;}
+#But7.Down p {color:#08384E;top:7px;left:89px;}
+#But7.Over p {color:#08384E;top:6px;left:88px;}
+#But7 div {display:none;}
+#Img29 {display:none;overflow:hidden;position:absolute;left:649px;top:346px;width:347px;height:313px;z-index:36;min-width:347px;}
+#Img29Inner {position: absolute;width:347px;height:313px;border:0px;}
+#Img30 {display:block;overflow:hidden;position:absolute;left:1007px;top:9px;width:286px;height:169px;z-index:37;min-width:286px;}
+#Img30Inner {position: absolute;width:286px;height:169px;border:0px;}

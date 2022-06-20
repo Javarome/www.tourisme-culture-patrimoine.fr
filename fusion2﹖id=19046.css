@@ -1,0 +1,44 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1px;top:-41px;width:1299px;height:864px;z-index:2;min-width:1299px;}
+#Img1Inner {position: absolute;width:1299px;height:864px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:0px;top:222px;width:1300px;height:171px;z-index:3;min-width:1300px;}
+#Img2Inner {position: absolute;width:1300px;height:171px;border:0px;}
+#Text2 {word-wrap:break-word; overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:528px;top:154px;width:310px;height:58px;z-index:4;}
+#But1{display:block;overflow:hidden;position:absolute;left:-22px;top:155px;width:247px;height:62px;z-index:5;font-weight:400;font-family:"Arial";font-size:21px !important;color:rgb(255, 255, 0); text-shadow: 0 0px;}
+#But1{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But1 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But1:focus {outline:0}
+
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:209px;top:1px;width:879px;height:96px;z-index:6;}
+#Text3 {word-wrap:break-word; display:block;position:absolute;left:671px;top:330px;width:300px;height:85px;z-index:7;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:11px;top:-9px;width:182px;height:180px;z-index:8;min-width:182px;}
+#Img6Inner {position: absolute;width:182px;height:180px;border:0px;}
+#Text5 {word-wrap:break-word; display:block;position:absolute;left:734px;top:381px;width:300px;height:29px;z-index:9;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:294px;top:457px;width:300px;height:78px;z-index:10;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:716px;top:457px;width:300px;height:29px;z-index:11;}
+#Obj3 {word-wrap:break-word; display:block;position:absolute;left:318px;top:440px;width:895px;height:39px;z-index:12;}
+#Obj6 {word-wrap:break-word; display:block;position:absolute;left:209px;top:740px;width:895px;height:39px;z-index:13;}
+#Obj4 {word-wrap:break-word; display:block;position:absolute;left:-10px;top:419px;width:817px;height:39px;z-index:14;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1px;top:216px;width:1310px;height:584px;z-index:15;min-width:1310px;}
+#Img3Inner {position: absolute;width:1310px;height:584px;border:0px;}
+#Text4 {word-wrap:break-word; overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:14px;top:487px;width:1286px;height:295px;z-index:16;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:1033px;top:13px;width:240px;height:143px;z-index:17;min-width:240px;}
+#Img4Inner {position: absolute;width:240px;height:143px;border:0px;}
+#But3 {display:block;overflow:hidden;position:absolute;left:1022px;top:170px;width:251px;height:35px;z-index:18;background:url('buttons/fusion2_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -251px 0;}
+#But3.Over {background-position: -502px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#FFFF00;top:6px;left:40px;}
+#But3.Down p {color:#800080;top:7px;left:41px;}
+#But3.Over p {color:#800080;top:6px;left:40px;}
+#But3 div {display:none;}
+#Obj5 {word-wrap:break-word; display:none;position:absolute;left:551px;top:277px;width:211px;height:39px;z-index:19;}

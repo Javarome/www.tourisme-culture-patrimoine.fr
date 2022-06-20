@@ -1,0 +1,117 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:565px;top:412px;width:415px;height:223px;z-index:2;min-width:415px;}
+#Img11Inner {position: absolute;width:415px;height:223px;border:0px;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:3;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-route-et-le-pont_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:4;}
+#But10 {display:block;overflow:hidden;position:absolute;left:517px;top:199px;width:251px;height:35px;z-index:5;background:url('buttons/la-route-et-le-pont_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:4px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:37px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:36px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1089px;top:182px;width:168px;height:63px;z-index:6;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:4px;top:4px;width:180px;height:180px;z-index:7;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:8;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-route-et-le-pont_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:274px;width:391px;height:35px;z-index:9;background:url('buttons/la-route-et-le-pont_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -391px 0;}
+#But4.Over {background-position: -782px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:48px;}
+#But4.Down p {color:#08384E;top:7px;left:49px;}
+#But4.Over p {color:#08384E;top:6px;left:48px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:307px;height:35px;z-index:10;background:url('buttons/la-route-et-le-pont_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -307px 0;}
+#But1.Over {background-position: -614px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:97px;}
+#But1.Down p {color:#08384E;top:7px;left:98px;}
+#But1.Over p {color:#08384E;top:6px;left:97px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:33px;top:412px;width:365px;height:35px;z-index:11;background:url('buttons/la-route-et-le-pont_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:85px;}
+#But2.Down p {color:#08384E;top:7px;left:86px;}
+#But2.Over p {color:#08384E;top:6px;left:85px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:26px;top:479px;width:345px;height:35px;z-index:12;background:url('buttons/la-route-et-le-pont_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -345px 0;}
+#But3.Over {background-position: -690px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:84px;}
+#But3.Down p {color:#08384E;top:7px;left:85px;}
+#But3.Over p {color:#08384E;top:6px;left:84px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:27px;top:547px;width:389px;height:35px;z-index:13;background:url('buttons/la-route-et-le-pont_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -389px 0;}
+#But5.Over {background-position: -778px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:94px;}
+#But5.Down p {color:#08384E;top:7px;left:95px;}
+#But5.Over p {color:#08384E;top:6px;left:94px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:4px;top:622px;width:386px;height:35px;z-index:14;background:url('buttons/la-route-et-le-pont_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -386px 0;}
+#But6.Over {background-position: -772px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:87px;}
+#But6.Down p {color:#08384E;top:7px;left:88px;}
+#But6.Over p {color:#08384E;top:6px;left:87px;}
+#But6 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:442px;top:254px;width:678px;height:553px;z-index:15;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-route-et-le-pont_Box3.png');background-repeat:no-repeat;}
+#But7 {display:block;overflow:hidden;position:absolute;left:15px;top:684px;width:315px;height:35px;z-index:16;background:url('buttons/la-route-et-le-pont_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -315px 0;}
+#But7.Over {background-position: -630px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:82px;}
+#But7.Down p {color:#08384E;top:7px;left:83px;}
+#But7.Over p {color:#08384E;top:6px;left:82px;}
+#But7 div {display:none;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:498px;top:388px;width:565px;height:304px;z-index:17;min-width:565px;}
+#Img4Inner {position: absolute;width:565px;height:304px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:520px;top:292px;width:510px;height:471px;z-index:18;min-width:510px;}
+#Img5Inner {position: absolute;width:510px;height:471px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:539px;top:346px;width:432px;height:436px;z-index:19;min-width:432px;}
+#Img6Inner {position: absolute;width:432px;height:436px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:571px;top:388px;width:374px;height:331px;z-index:20;min-width:374px;}
+#Img7Inner {position: absolute;width:374px;height:331px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:556px;top:403px;width:404px;height:294px;z-index:21;min-width:404px;}
+#Img8Inner {position: absolute;width:404px;height:294px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:481px;top:446px;width:588px;height:238px;z-index:22;min-width:588px;}
+#Img9Inner {position: absolute;width:588px;height:238px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:19px;top:752px;width:315px;height:35px;z-index:23;background:url('buttons/la-route-et-le-pont_But7.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -315px 0;}
+#But8.Over {background-position: -630px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:100px;}
+#But8.Down p {color:#08384E;top:7px;left:101px;}
+#But8.Over p {color:#08384E;top:6px;left:100px;}
+#But8 div {display:none;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:577px;top:430px;width:379px;height:235px;z-index:24;min-width:379px;}
+#Img10Inner {position: absolute;width:379px;height:235px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:539px;top:274px;width:426px;height:495px;z-index:25;min-width:426px;}
+#Img2Inner {position: absolute;width:426px;height:495px;border:0px;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:26;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:8px;top:192px;width:201px;height:64px;z-index:27;}

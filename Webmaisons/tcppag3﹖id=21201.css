@@ -1,0 +1,140 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1500px;height:840px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:-25px;top:0px;width:1300px;height:800px;z-index:2;min-width:1300px;}
+#Img1Inner {position: absolute;width:1300px;height:800px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:-6px;top:1px;width:398px;height:711px;z-index:3;min-width:398px;}
+#Img2Inner {position: absolute;width:398px;height:711px;border:0px;}
+#But1 {display:block;overflow:hidden;position:absolute;left:40px;top:16px;width:114px;height:47px;z-index:4;background:url('buttons/tcppag3_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -114px 0;}
+#But1.Over {background-position: -228px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But1.Up p {top:25px;left:60px;}
+#But1.Down p {top:26px;left:61px;}
+#But1.Over p {top:25px;left:60px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:41px;top:62px;width:53px;height:47px;z-index:5;background:url('buttons/tcppag3_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -53px 0;}
+#But2.Over {background-position: -106px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But2.Up p {top:25px;left:30px;}
+#But2.Down p {top:26px;left:31px;}
+#But2.Over p {top:25px;left:30px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:142px;top:14px;width:80px;height:92px;z-index:6;background:url('buttons/tcppag3_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -80px 0;}
+#But3.Over {background-position: -160px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But3.Up p {top:47px;left:43px;}
+#But3.Down p {top:48px;left:44px;}
+#But3.Over p {top:47px;left:43px;}
+#But3 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:222px;top:19px;width:80px;height:63px;z-index:7;background:url('buttons/tcppag3_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -80px 0;}
+#But4.Over {background-position: -160px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But4.Up p {top:33px;left:43px;}
+#But4.Down p {top:34px;left:44px;}
+#But4.Over p {top:33px;left:43px;}
+#But4 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:308px;top:18px;width:52px;height:109px;z-index:8;background:url('buttons/tcppag3_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -52px 0;}
+#But5.Over {background-position: -104px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But5.Up p {top:56px;left:29px;}
+#But5.Down p {top:57px;left:30px;}
+#But5.Over p {top:56px;left:29px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:34px;top:113px;width:126px;height:147px;z-index:9;background:url('buttons/tcppag3_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -126px 0;}
+#But6.Over {background-position: -252px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But6.Up p {top:75px;left:66px;}
+#But6.Down p {top:76px;left:67px;}
+#But6.Over p {top:75px;left:66px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:166px;top:127px;width:195px;height:58px;z-index:10;background:url('buttons/tcppag3_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -195px 0;}
+#But7.Over {background-position: -390px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But7.Up p {top:30px;left:101px;}
+#But7.Down p {top:31px;left:102px;}
+#But7.Over p {top:30px;left:101px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:167px;top:189px;width:167px;height:68px;z-index:11;background:url('buttons/tcppag3_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -167px 0;}
+#But8.Over {background-position: -334px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But8.Up p {top:35px;left:87px;}
+#But8.Down p {top:36px;left:88px;}
+#But8.Over p {top:35px;left:87px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:34px;top:264px;width:334px;height:75px;z-index:12;background:url('buttons/tcppag3_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -334px 0;}
+#But9.Over {background-position: -668px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But9.Up p {top:39px;left:170px;}
+#But9.Down p {top:40px;left:171px;}
+#But9.Over p {top:39px;left:170px;}
+#But9 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:28px;top:346px;width:82px;height:192px;z-index:13;background:url('buttons/tcppag3_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -82px 0;}
+#But10.Over {background-position: -164px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But10.Up p {top:97px;left:44px;}
+#But10.Down p {top:98px;left:45px;}
+#But10.Over p {top:97px;left:44px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:113px;top:343px;width:257px;height:74px;z-index:14;background:url('buttons/tcppag3_But11.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -257px 0;}
+#But11.Over {background-position: -514px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But11.Up p {top:38px;left:132px;}
+#But11.Down p {top:39px;left:133px;}
+#But11.Over p {top:38px;left:132px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:110px;top:420px;width:257px;height:141px;z-index:15;background:url('buttons/tcppag3_But12.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -257px 0;}
+#But12.Over {background-position: -514px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But12.Up p {top:72px;left:132px;}
+#But12.Down p {top:73px;left:133px;}
+#But12.Over p {top:72px;left:132px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:29px;top:582px;width:332px;height:106px;z-index:16;background:url('buttons/tcppag3_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -332px 0;}
+#But13.Over {background-position: -664px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But13.Up p {top:54px;left:169px;}
+#But13.Down p {top:55px;left:170px;}
+#But13.Over p {top:54px;left:169px;}
+#But13 div {display:none;}
+#But15 {display:block;overflow:hidden;position:absolute;left:541px;top:22px;width:275px;height:35px;z-index:17;background:url('buttons/tcppag3_But15.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -275px 0;}
+#But15.Over {background-position: -550px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:21px;color:#FFFF00;}
+#But15.Up p {top:6px;left:21px;}
+#But15.Down p {top:7px;left:22px;}
+#But15.Over p {top:6px;left:21px;}
+#But15 div {display:none;}
+#Img3 {display:none;overflow:hidden;position:absolute;left:425px;top:273px;width:363px;height:243px;z-index:18;min-width:363px;}
+#Img3Inner {position: absolute;width:363px;height:243px;border:0px;}

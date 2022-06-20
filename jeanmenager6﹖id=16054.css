@@ -1,0 +1,219 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-5px;top:254px;width:1309px;height:552px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/jeanmenager6_Box2.png');background-repeat:no-repeat;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:397px;top:407px;width:415px;height:258px;z-index:3;min-width:415px;}
+#Img8Inner {position: absolute;width:415px;height:258px;border:0px;}
+#Text3 {word-wrap:break-word; display:block;position:absolute;left:671px;top:330px;width:300px;height:85px;z-index:4;}
+#But2 {display:block;overflow:hidden;position:absolute;left:40px;top:331px;width:251px;height:35px;z-index:5;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -251px 0;}
+#But2.Over {background-position: -502px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:44px;}
+#But2.Down p {color:#08384E;top:7px;left:45px;}
+#But2.Over p {color:#08384E;top:6px;left:44px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:26px;top:373px;width:251px;height:35px;z-index:6;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -251px 0;}
+#But3.Over {background-position: -502px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:38px;}
+#But3.Down p {color:#08384E;top:7px;left:39px;}
+#But3.Over p {color:#08384E;top:6px;left:38px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:31px;top:415px;width:251px;height:35px;z-index:7;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -251px 0;}
+#But5.Over {background-position: -502px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:54px;}
+#But5.Down p {color:#08384E;top:7px;left:55px;}
+#But5.Over p {color:#08384E;top:6px;left:54px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:33px;top:458px;width:251px;height:35px;z-index:8;background:url('buttons/jeanmenager6_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -251px 0;}
+#But6.Over {background-position: -502px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:35px;}
+#But6.Down p {color:#08384E;top:7px;left:36px;}
+#But6.Over p {color:#08384E;top:6px;left:35px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:40px;top:502px;width:251px;height:35px;z-index:9;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -251px 0;}
+#But7.Over {background-position: -502px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:85px;}
+#But7.Down p {color:#08384E;top:7px;left:86px;}
+#But7.Over p {color:#09384C;top:6px;left:85px;}
+#But7 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:40px;top:544px;width:251px;height:35px;z-index:10;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -251px 0;}
+#But9.Over {background-position: -502px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:37px;}
+#But9.Down p {color:#08384E;top:7px;left:38px;}
+#But9.Over p {color:#09374E;top:6px;left:37px;}
+#But9 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:31px;top:592px;width:251px;height:31px;z-index:11;background:url('buttons/jeanmenager6_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But10.Up p {color:#039EE9;top:4px;left:40px;}
+#But10.Down p {color:#08394A;top:5px;left:41px;}
+#But10.Over p {color:#08384E;top:4px;left:40px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:40px;top:639px;width:251px;height:35px;z-index:12;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -251px 0;}
+#But11.Over {background-position: -502px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But11.Up p {color:#039EE9;top:6px;left:7px;}
+#But11.Down p {color:#08384E;top:7px;left:8px;}
+#But11.Over p {color:#08384E;top:6px;left:7px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:33px;top:686px;width:251px;height:35px;z-index:13;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -251px 0;}
+#But12.Over {background-position: -502px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But12.Up p {color:#039EE9;top:6px;left:32px;}
+#But12.Down p {color:#09374E;top:7px;left:33px;}
+#But12.Over p {color:#08384E;top:6px;left:32px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:964px;top:331px;width:285px;height:35px;z-index:14;background:url('buttons/jeanmenager6_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -285px 0;}
+#But13.Over {background-position: -570px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But13.Up p {color:#039EE9;top:6px;left:3px;}
+#But13.Down p {color:#08384E;top:7px;left:4px;}
+#But13.Over p {color:#08384E;top:6px;left:3px;}
+#But13 div {display:none;}
+#But14 {display:block;overflow:hidden;position:absolute;left:954px;top:373px;width:251px;height:35px;z-index:15;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -251px 0;}
+#But14.Over {background-position: -502px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But14.Up p {color:#039EE9;top:6px;left:27px;}
+#But14.Down p {color:#08384E;top:7px;left:28px;}
+#But14.Over p {color:#08384E;top:6px;left:27px;}
+#But14 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:970px;top:415px;width:251px;height:35px;z-index:16;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:28px;}
+#But8.Down p {color:#06364A;top:7px;left:29px;}
+#But8.Over p {color:#08384E;top:6px;left:28px;}
+#But8 div {display:none;}
+#But15 {display:block;overflow:hidden;position:absolute;left:981px;top:458px;width:251px;height:35px;z-index:17;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -251px 0;}
+#But15.Over {background-position: -502px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But15.Up p {color:#039EE9;top:6px;left:16px;}
+#But15.Down p {color:#09394F;top:7px;left:17px;}
+#But15.Over p {color:#08384E;top:6px;left:16px;}
+#But15 div {display:none;}
+#But17 {display:block;overflow:hidden;position:absolute;left:981px;top:502px;width:251px;height:35px;z-index:18;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -251px 0;}
+#But17.Over {background-position: -502px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But17.Up p {color:#039EE9;top:6px;left:48px;}
+#But17.Down p {color:#08384E;top:7px;left:49px;}
+#But17.Over p {color:#08384E;top:6px;left:48px;}
+#But17 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:985px;top:544px;width:251px;height:35px;z-index:19;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -251px 0;}
+#But18.Over {background-position: -502px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But18.Up p {color:#039EE9;top:6px;left:10px;}
+#But18.Down p {color:#08384E;top:7px;left:11px;}
+#But18.Over p {color:#08384E;top:6px;left:10px;}
+#But18 div {display:none;}
+#But19 {display:block;overflow:hidden;position:absolute;left:954px;top:592px;width:295px;height:35px;z-index:20;background:url('buttons/jeanmenager6_But19.png');background-repeat:no-repeat;}
+#But19.Up {background-position: 0 0;}
+#But19.Down {background-position: -295px 0;}
+#But19.Over {background-position: -590px 0;}
+#But19 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But19.Up p {color:#039EE9;top:6px;left:11px;}
+#But19.Down p {color:#08384E;top:7px;left:12px;}
+#But19.Over p {color:#06364A;top:6px;left:11px;}
+#But19 div {display:none;}
+#But20 {display:block;overflow:hidden;position:absolute;left:964px;top:639px;width:251px;height:35px;z-index:21;background:url('buttons/jeanmenager6_But2.png');background-repeat:no-repeat;}
+#But20.Up {background-position: 0 0;}
+#But20.Down {background-position: -251px 0;}
+#But20.Over {background-position: -502px 0;}
+#But20 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But20.Up p {color:#039EE9;top:6px;left:20px;}
+#But20.Down p {color:#08384E;top:7px;left:21px;}
+#But20.Over p {color:#08384E;top:6px;left:20px;}
+#But20 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-29px;top:-5px;width:1343px;height:271px;z-index:22;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/jeanmenager6_Box1.png');background-repeat:no-repeat;}
+#Obj4 {word-wrap:break-word; display:block;position:absolute;left:242px;top:53px;width:763px;height:124px;z-index:23;}
+#But1 {display:block;overflow:hidden;position:absolute;left:364px;top:205px;width:499px;height:35px;z-index:24;background:url('buttons/jeanmenager6_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -499px 0;}
+#But1.Over {background-position: -998px 0;}
+#But1 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But1.Up p {font-size:27px;color:#FFFFFF;top:2px;left:28px;}
+#But1.Down p {font-size:20px;color:#08384E;top:7px;left:88px;}
+#But1.Over p {font-size:20px;color:#08384E;top:6px;left:87px;}
+#But1 div {display:none;}
+#Img22 {display:block;overflow:hidden;position:absolute;left:1039px;top:9px;width:286px;height:169px;z-index:25;min-width:286px;}
+#Img22Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:5px;top:4px;width:180px;height:180px;z-index:26;min-width:180px;}
+#Img4Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:1064px;top:178px;width:193px;height:65px;z-index:27;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:311px;top:243px;width:588px;height:546px;z-index:28;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/jeanmenager6_Box3.png');background-repeat:no-repeat;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:123px;top:0px;width:385px;height:545px;z-index:29;min-width:385px;}
+#Img1Inner {position: absolute;width:385px;height:545px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:358px;top:397px;width:493px;height:330px;z-index:30;min-width:493px;}
+#Img10Inner {position: absolute;width:493px;height:330px;border:0px;}
+#Img3 {display:none;overflow:hidden;position:absolute;left:362px;top:346px;width:489px;height:313px;z-index:31;min-width:489px;}
+#Img3Inner {position: absolute;width:489px;height:313px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:438px;top:243px;width:384px;height:543px;z-index:32;min-width:384px;}
+#Img2Inner {position: absolute;width:384px;height:543px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:385px;height:545px;z-index:33;min-width:385px;}
+#Img6Inner {position: absolute;width:385px;height:545px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:438px;top:243px;width:386px;height:546px;z-index:34;min-width:386px;}
+#Img7Inner {position: absolute;width:386px;height:546px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:385px;height:545px;z-index:35;min-width:385px;}
+#Img9Inner {position: absolute;width:385px;height:545px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:387px;height:548px;z-index:36;min-width:387px;}
+#Img11Inner {position: absolute;width:387px;height:548px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:387px;height:548px;z-index:37;min-width:387px;}
+#Img12Inner {position: absolute;width:387px;height:548px;border:0px;}
+#Img13 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:387px;height:548px;z-index:38;min-width:387px;}
+#Img13Inner {position: absolute;width:387px;height:548px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:434px;top:243px;width:392px;height:555px;z-index:39;min-width:392px;}
+#Img14Inner {position: absolute;width:392px;height:555px;border:0px;}
+#Img15 {display:none;overflow:hidden;position:absolute;left:428px;top:243px;width:394px;height:558px;z-index:40;min-width:394px;}
+#Img15Inner {position: absolute;width:394px;height:558px;border:0px;}
+#Img16 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:392px;height:555px;z-index:41;min-width:392px;}
+#Img16Inner {position: absolute;width:392px;height:555px;border:0px;}
+#Img17 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:392px;height:555px;z-index:42;min-width:392px;}
+#Img17Inner {position: absolute;width:392px;height:555px;border:0px;}
+#Img18 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:395px;height:559px;z-index:43;min-width:395px;}
+#Img18Inner {position: absolute;width:395px;height:559px;border:0px;}
+#Img19 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:391px;height:553px;z-index:44;min-width:391px;}
+#Img19Inner {position: absolute;width:391px;height:553px;border:0px;}
+#Img20 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:395px;height:559px;z-index:45;min-width:395px;}
+#Img20Inner {position: absolute;width:395px;height:559px;border:0px;}
+#Img21 {display:none;overflow:hidden;position:absolute;left:422px;top:243px;width:394px;height:558px;z-index:46;min-width:394px;}
+#Img21Inner {position: absolute;width:394px;height:558px;border:0px;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:26px;top:191px;width:206px;height:67px;z-index:47;}

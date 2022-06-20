@@ -1,0 +1,126 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-30px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/despersonnagescelebres2_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:290px;top:43px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:409px;top:199px;width:359px;height:35px;z-index:4;background:url('buttons/despersonnagescelebres2_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -359px 0;}
+#But10.Over {background-position: -718px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:2px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:50px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:49px;}
+#But10 div {display:none;}
+#Obj4 {word-wrap:break-word; display:block;position:absolute;left:7px;top:179px;width:204px;height:73px;z-index:5;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1073px;top:142px;width:205px;height:65px;z-index:6;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/despersonnagescelebres2_Box2.png');background-repeat:no-repeat;}
+#But5 {display:block;overflow:hidden;position:absolute;left:56px;top:495px;width:271px;height:35px;z-index:8;background:url('buttons/despersonnagescelebres2_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -271px 0;}
+#But5.Over {background-position: -542px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#009FE3;top:6px;left:78px;}
+#But5.Down p {color:#08384E;top:7px;left:79px;}
+#But5.Over p {color:#08384E;top:6px;left:78px;}
+#But5 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:68px;top:436px;width:271px;height:35px;z-index:9;background:url('buttons/despersonnagescelebres2_But5.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -271px 0;}
+#But9.Over {background-position: -542px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#019EE3;top:6px;left:24px;}
+#But9.Down p {color:#08384E;top:7px;left:25px;}
+#But9.Over p {color:#08384E;top:6px;left:24px;}
+#But9 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:43px;top:272px;width:310px;height:35px;z-index:10;background:url('buttons/despersonnagescelebres2_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -310px 0;}
+#But4.Over {background-position: -620px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#009FE3;top:6px;left:18px;}
+#But4.Down p {color:#08384E;top:7px;left:19px;}
+#But4.Over p {color:#08384E;top:6px;left:18px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:365px;height:35px;z-index:11;background:url('buttons/despersonnagescelebres2_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -365px 0;}
+#But1.Over {background-position: -730px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#069EE5;top:6px;left:94px;}
+#But1.Down p {color:#08384E;top:7px;left:95px;}
+#But1.Over p {color:#08384E;top:6px;left:94px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:21px;top:412px;width:355px;height:35px;z-index:12;background:url('buttons/despersonnagescelebres2_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -355px 0;}
+#But2.Over {background-position: -710px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#019EE3;top:6px;left:27px;}
+#But2.Down p {color:#08384E;top:7px;left:28px;}
+#But2.Over p {color:#08384E;top:6px;left:27px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:7px;top:485px;width:393px;height:35px;z-index:13;background:url('buttons/despersonnagescelebres2_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -393px 0;}
+#But3.Over {background-position: -786px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#069EE2;top:6px;left:9px;}
+#But3.Down p {color:#08384E;top:7px;left:10px;}
+#But3.Over p {color:#08384E;top:6px;left:9px;}
+#But3 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:403px;top:248px;width:678px;height:553px;z-index:14;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/despersonnagescelebres2_Box3.png');background-repeat:no-repeat;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:157px;top:149px;width:422px;height:227px;z-index:15;min-width:422px;}
+#Img10Inner {position: absolute;width:422px;height:227px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:47px;top:24px;width:510px;height:429px;z-index:16;min-width:510px;}
+#Img9Inner {position: absolute;width:510px;height:429px;border:0px;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:191px;top:138px;width:240px;height:164px;z-index:17;min-width:240px;}
+#Img1Inner {position: absolute;width:240px;height:164px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:581px;top:421px;width:346px;height:214px;z-index:18;min-width:346px;}
+#Img7Inner {position: absolute;width:346px;height:214px;border:0px;}
+#But6 {display:block;overflow:hidden;position:absolute;left:62px;top:549px;width:271px;height:35px;z-index:19;background:url('buttons/despersonnagescelebres2_But5.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -271px 0;}
+#But6.Over {background-position: -542px 0;}
+#But6 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#FFFFFF;top:6px;left:55px;}
+#But6.Down p {color:#08384E;top:7px;left:56px;}
+#But6.Over p {color:#08384E;top:6px;left:55px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:62px;top:549px;width:271px;height:35px;z-index:20;background:url('buttons/despersonnagescelebres2_But5.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -271px 0;}
+#But7.Over {background-position: -542px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#009FE3;top:6px;left:55px;}
+#But7.Down p {color:#08384E;top:7px;left:56px;}
+#But7.Over p {color:#08384E;top:6px;left:55px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:62px;top:623px;width:271px;height:35px;z-index:21;background:url('buttons/despersonnagescelebres2_But5.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -271px 0;}
+#But8.Over {background-position: -542px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#019EE3;top:6px;left:66px;}
+#But8.Down p {color:#08384E;top:7px;left:67px;}
+#But8.Over p {color:#08384E;top:6px;left:66px;}
+#But8 div {display:none;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:483px;top:338px;width:516px;height:421px;z-index:22;min-width:516px;}
+#Img2Inner {position: absolute;width:516px;height:421px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:585px;top:258px;width:337px;height:530px;z-index:23;min-width:337px;}
+#Img4Inner {position: absolute;width:337px;height:530px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:584px;top:258px;width:295px;height:520px;z-index:24;min-width:295px;}
+#Img5Inner {position: absolute;width:295px;height:520px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:483px;top:310px;width:535px;height:391px;z-index:25;min-width:535px;}
+#Img6Inner {position: absolute;width:535px;height:391px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:585px;top:258px;width:258px;height:526px;z-index:26;min-width:258px;}
+#Img8Inner {position: absolute;width:258px;height:526px;border:0px;}
+#Img11 {display:block;overflow:hidden;position:absolute;left:1017px;top:-34px;width:286px;height:169px;z-index:27;min-width:286px;}
+#Img11Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1px;top:-2px;width:180px;height:180px;z-index:28;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}

@@ -1,0 +1,49 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-5px;top:247px;width:1309px;height:555px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/boules_Box2.png');background-repeat:no-repeat;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:0px;width:1343px;height:259px;z-index:3;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/boules_Box1.png');background-repeat:no-repeat;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:304px;top:46px;width:763px;height:124px;z-index:4;}
+#But10 {display:block;overflow:hidden;position:absolute;left:517px;top:199px;width:251px;height:35px;z-index:5;background:url('buttons/boules_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:4px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:38px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:37px;}
+#But10 div {display:none;}
+#Text3 {word-wrap:break-word; display:block;position:absolute;left:671px;top:330px;width:300px;height:85px;z-index:6;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:427px;top:250px;width:421px;height:548px;z-index:7;min-width:421px;}
+#Img4Inner {position: absolute;width:421px;height:548px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:953px;top:457px;width:394px;height:300px;z-index:8;}
+#Text5 {word-wrap:break-word; display:block;position:absolute;left:45px;top:457px;width:386px;height:300px;z-index:9;}
+#Text6 {word-wrap:break-word; display:block;position:absolute;left:1118px;top:154px;width:150px;height:87px;z-index:10;}
+#But2 {display:block;overflow:hidden;position:absolute;left:640px;top:740px;width:251px;height:35px;z-index:11;background:url('buttons/boules_But10.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -251px 0;}
+#But2.Over {background-position: -502px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;}
+#But2.Up p {color:#08384E;top:6px;left:66px;}
+#But2.Down p {color:#FCE48A;top:7px;left:67px;}
+#But2.Over p {color:#FCE498;top:6px;left:66px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:414px;top:740px;width:251px;height:35px;z-index:12;background:url('buttons/boules_But10.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -251px 0;}
+#But3.Over {background-position: -502px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;}
+#But3.Up p {color:#08384E;top:6px;left:32px;}
+#But3.Down p {color:#FCE48A;top:7px;left:33px;}
+#But3.Over p {color:#FCE48A;top:6px;left:32px;}
+#But3 div {display:none;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1034px;top:0px;width:264px;height:156px;z-index:13;min-width:264px;}
+#Img1Inner {position: absolute;width:264px;height:156px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:3px;top:0px;width:180px;height:180px;z-index:14;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:-9px;top:185px;width:204px;height:73px;z-index:15;}

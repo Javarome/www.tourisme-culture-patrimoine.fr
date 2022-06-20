@@ -1,0 +1,205 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-2px;top:246px;width:1309px;height:679px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/exposition-horloges-_Box2.png');background-repeat:no-repeat;}
+#But1 {display:block;overflow:hidden;position:absolute;left:50px;top:6px;width:402px;height:35px;z-index:3;background:url('buttons/exposition-horloges-_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -402px 0;}
+#But1.Over {background-position: -804px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#00A0E3;top:6px;left:-1px;}
+#But1.Down p {color:#08384E;top:7px;left:0px;}
+#But1.Over p {color:#08384E;top:6px;left:-1px;}
+#But1 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-4px;top:-2px;width:1343px;height:259px;z-index:4;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/exposition-horloges-_Box1.png');background-repeat:no-repeat;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:5;}
+#But10 {display:block;overflow:hidden;position:absolute;left:299px;top:199px;width:590px;height:35px;z-index:6;background:url('buttons/exposition-horloges-_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -590px 0;}
+#But10.Over {background-position: -1180px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:19px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:93px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:92px;}
+#But10 div {display:none;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:10px;top:11px;width:180px;height:180px;z-index:7;min-width:180px;}
+#Img9Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:23px;top:189px;width:197px;height:58px;z-index:8;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:598px;top:235px;width:659px;height:551px;z-index:9;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/exposition-horloges-_Box3.png');background-repeat:no-repeat;}
+#Text1 {word-wrap:break-word; display:none;position:absolute;left:263px;top:26px;width:201px;height:39px;z-index:10;}
+#But2 {display:block;overflow:hidden;position:absolute;left:15px;top:286px;width:366px;height:35px;z-index:11;background:url('buttons/exposition-horloges-_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -366px 0;}
+#But2.Over {background-position: -732px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#02A0E1;top:6px;left:28px;}
+#But2.Down p {color:#08384E;top:7px;left:29px;}
+#But2.Over p {color:#08384E;top:6px;left:28px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:46px;top:351px;width:518px;height:35px;z-index:12;background:url('buttons/exposition-horloges-_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -518px 0;}
+#But3.Over {background-position: -1036px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#029FE4;top:6px;left:-1px;}
+#But3.Down p {color:#08384E;top:7px;left:0px;}
+#But3.Over p {color:#08384E;top:6px;left:-1px;}
+#But3 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:-4px;top:385px;width:366px;height:32px;z-index:13;background:url('buttons/exposition-horloges-_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -366px 0;}
+#But4.Over {background-position: -732px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#019FE4;top:5px;left:50px;}
+#But4.Down p {color:#08384E;top:6px;left:51px;}
+#But4.Over p {color:#08384E;top:5px;left:50px;}
+#But4 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:-2px;top:416px;width:495px;height:32px;z-index:14;background:url('buttons/exposition-horloges-_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -495px 0;}
+#But5.Over {background-position: -990px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#21A6E1;top:5px;left:43px;}
+#But5.Down p {color:#08384E;top:6px;left:44px;}
+#But5.Over p {color:#08384E;top:5px;left:43px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:23px;top:447px;width:495px;height:32px;z-index:15;background:url('buttons/exposition-horloges-_But5.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -495px 0;}
+#But6.Over {background-position: -990px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#029EE3;top:5px;left:21px;}
+#But6.Down p {color:#08384E;top:6px;left:22px;}
+#But6.Over p {color:#08384E;top:5px;left:21px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:31px;top:478px;width:533px;height:32px;z-index:16;background:url('buttons/exposition-horloges-_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -533px 0;}
+#But7.Over {background-position: -1066px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#069EDF;top:5px;left:13px;}
+#But7.Down p {color:#08384E;top:6px;left:14px;}
+#But7.Over p {color:#08384E;top:5px;left:13px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:23px;top:317px;width:366px;height:35px;z-index:17;background:url('buttons/exposition-horloges-_But2.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -366px 0;}
+#But8.Over {background-position: -732px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#009FE3;top:6px;left:21px;}
+#But8.Down p {color:#08384E;top:7px;left:22px;}
+#But8.Over p {color:#08384E;top:6px;left:21px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:46px;top:508px;width:553px;height:32px;z-index:18;background:url('buttons/exposition-horloges-_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -553px 0;}
+#But9.Over {background-position: -1106px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#069FE0;top:5px;left:-2px;}
+#But9.Down p {color:#08384E;top:6px;left:-1px;}
+#But9.Over p {color:#08384E;top:5px;left:-2px;}
+#But9 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:29px;top:539px;width:484px;height:32px;z-index:19;background:url('buttons/exposition-horloges-_But11.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -484px 0;}
+#But11.Over {background-position: -968px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But11.Up p {color:#15A0DF;top:5px;left:13px;}
+#But11.Down p {color:#08384E;top:6px;left:14px;}
+#But11.Over p {color:#08384E;top:5px;left:13px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:-4px;top:570px;width:484px;height:32px;z-index:20;background:url('buttons/exposition-horloges-_But11.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -484px 0;}
+#But12.Over {background-position: -968px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But12.Up p {color:#0EA1E5;top:5px;left:47px;}
+#But12.Down p {color:#08384E;top:6px;left:48px;}
+#But12.Over p {color:#08384E;top:5px;left:47px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:-12px;top:601px;width:484px;height:32px;z-index:21;background:url('buttons/exposition-horloges-_But11.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -484px 0;}
+#But13.Over {background-position: -968px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But13.Up p {color:#069EE2;top:5px;left:52px;}
+#But13.Down p {color:#08384E;top:6px;left:53px;}
+#But13.Over p {color:#08384E;top:5px;left:52px;}
+#But13 div {display:none;}
+#But14 {display:block;overflow:hidden;position:absolute;left:4px;top:632px;width:484px;height:32px;z-index:22;background:url('buttons/exposition-horloges-_But11.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -484px 0;}
+#But14.Over {background-position: -968px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But14.Up p {color:#009FE3;top:5px;left:37px;}
+#But14.Down p {color:#08384E;top:6px;left:38px;}
+#But14.Over p {color:#08384E;top:5px;left:37px;}
+#But14 div {display:none;}
+#But15 {display:block;overflow:hidden;position:absolute;left:29px;top:663px;width:484px;height:32px;z-index:23;background:url('buttons/exposition-horloges-_But11.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -484px 0;}
+#But15.Over {background-position: -968px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But15.Up p {color:#069EE2;top:5px;left:10px;}
+#But15.Down p {color:#08384E;top:6px;left:11px;}
+#But15.Over p {color:#08384E;top:5px;left:10px;}
+#But15 div {display:none;}
+#But16 {display:block;overflow:hidden;position:absolute;left:29px;top:694px;width:274px;height:32px;z-index:24;background:url('buttons/exposition-horloges-_But16.png');background-repeat:no-repeat;}
+#But16.Up {background-position: 0 0;}
+#But16.Down {background-position: -274px 0;}
+#But16.Over {background-position: -548px 0;}
+#But16 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But16.Up p {color:#019EE3;top:5px;left:13px;}
+#But16.Down p {color:#08384E;top:6px;left:14px;}
+#But16.Over p {color:#08384E;top:5px;left:13px;}
+#But16 div {display:none;}
+#But17 {display:block;overflow:hidden;position:absolute;left:-4px;top:725px;width:246px;height:32px;z-index:25;background:url('buttons/exposition-horloges-_But17.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -246px 0;}
+#But17.Over {background-position: -492px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But17.Up p {color:#02A0E1;top:5px;left:46px;}
+#But17.Down p {color:#08384E;top:6px;left:47px;}
+#But17.Over p {color:#08384E;top:5px;left:46px;}
+#But17 div {display:none;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:650px;top:290px;width:586px;height:440px;z-index:26;min-width:586px;}
+#Img3Inner {position: absolute;width:586px;height:440px;border:0px;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:763px;top:294px;width:345px;height:460px;z-index:27;min-width:345px;}
+#Img1Inner {position: absolute;width:345px;height:460px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:640px;top:299px;width:564px;height:423px;z-index:28;min-width:564px;}
+#Img12Inner {position: absolute;width:564px;height:423px;border:0px;}
+#Img13 {display:none;overflow:hidden;position:absolute;left:659px;top:291px;width:568px;height:426px;z-index:29;min-width:568px;}
+#Img13Inner {position: absolute;width:568px;height:426px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:656px;top:291px;width:559px;height:419px;z-index:30;min-width:559px;}
+#Img11Inner {position: absolute;width:559px;height:419px;border:0px;}
+#Img16 {display:none;overflow:hidden;position:absolute;left:657px;top:292px;width:563px;height:422px;z-index:31;min-width:563px;}
+#Img16Inner {position: absolute;width:563px;height:422px;border:0px;}
+#Img15 {display:none;overflow:hidden;position:absolute;left:653px;top:295px;width:555px;height:416px;z-index:32;min-width:555px;}
+#Img15Inner {position: absolute;width:555px;height:416px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:663px;top:293px;width:560px;height:420px;z-index:33;min-width:560px;}
+#Img14Inner {position: absolute;width:560px;height:420px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:656px;top:294px;width:565px;height:424px;z-index:34;min-width:565px;}
+#Img10Inner {position: absolute;width:565px;height:424px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:663px;top:291px;width:555px;height:416px;z-index:35;min-width:555px;}
+#Img8Inner {position: absolute;width:555px;height:416px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:655px;top:291px;width:563px;height:422px;z-index:36;min-width:563px;}
+#Img7Inner {position: absolute;width:563px;height:422px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:656px;top:294px;width:558px;height:419px;z-index:37;min-width:558px;}
+#Img6Inner {position: absolute;width:558px;height:419px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:653px;top:296px;width:563px;height:422px;z-index:38;min-width:563px;}
+#Img4Inner {position: absolute;width:563px;height:422px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:653px;top:294px;width:565px;height:424px;z-index:39;min-width:565px;}
+#Img2Inner {position: absolute;width:565px;height:424px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:763px;top:294px;width:345px;height:460px;z-index:40;min-width:345px;}
+#Img5Inner {position: absolute;width:345px;height:460px;border:0px;}
+#Img17 {display:none;overflow:hidden;position:absolute;left:774px;top:312px;width:334px;height:445px;z-index:41;min-width:334px;}
+#Img17Inner {position: absolute;width:334px;height:445px;border:0px;}
+#Img18 {display:none;overflow:hidden;position:absolute;left:646px;top:291px;width:585px;height:439px;z-index:42;min-width:585px;}
+#Img18Inner {position: absolute;width:585px;height:439px;border:0px;}
+#Img19 {display:block;overflow:hidden;position:absolute;left:1008px;top:11px;width:286px;height:169px;z-index:43;min-width:286px;}
+#Img19Inner {position: absolute;width:286px;height:169px;border:0px;}

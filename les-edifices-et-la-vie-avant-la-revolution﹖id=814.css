@@ -1,0 +1,118 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-edifices-et-la-vie-avant-la-revolution_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:350px;top:199px;width:533px;height:35px;z-index:4;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -533px 0;}
+#But10.Over {background-position: -1066px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:4px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:74px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:73px;}
+#But10 div {display:none;}
+#Obj3 {word-wrap:break-word; display:block;position:absolute;left:31px;top:190px;width:168px;height:63px;z-index:5;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1061px;top:181px;width:205px;height:65px;z-index:6;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:7;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:8;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-edifices-et-la-vie-avant-la-revolution_Box2.png');background-repeat:no-repeat;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:27px;top:-63px;width:168px;height:63px;z-index:9;}
+#But4 {display:block;overflow:hidden;position:absolute;left:43px;top:272px;width:273px;height:35px;z-index:10;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -273px 0;}
+#But4.Over {background-position: -546px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:53px;}
+#But4.Down p {color:#08384E;top:7px;left:54px;}
+#But4.Over p {color:#08384E;top:6px;left:53px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:265px;height:35px;z-index:11;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -265px 0;}
+#But1.Over {background-position: -530px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:49px;}
+#But1.Down p {color:#08384E;top:7px;left:50px;}
+#But1.Over p {color:#08384E;top:6px;left:49px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:33px;top:412px;width:259px;height:35px;z-index:12;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -259px 0;}
+#But2.Over {background-position: -518px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:44px;}
+#But2.Down p {color:#08384E;top:7px;left:45px;}
+#But2.Over p {color:#08384E;top:6px;left:44px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:18px;top:484px;width:367px;height:35px;z-index:13;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -367px 0;}
+#But3.Over {background-position: -734px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:49px;}
+#But3.Down p {color:#08384E;top:7px;left:50px;}
+#But3.Over p {color:#08384E;top:6px;left:49px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:15px;top:551px;width:420px;height:35px;z-index:14;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -420px 0;}
+#But5.Over {background-position: -840px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:122px;}
+#But5.Down p {color:#08384E;top:7px;left:123px;}
+#But5.Over p {color:#08384E;top:6px;left:122px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:18px;top:623px;width:339px;height:35px;z-index:15;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -339px 0;}
+#But6.Over {background-position: -678px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:126px;}
+#But6.Down p {color:#08384E;top:7px;left:127px;}
+#But6.Over p {color:#08384E;top:6px;left:126px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:18px;top:692px;width:338px;height:35px;z-index:16;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -338px 0;}
+#But7.Over {background-position: -676px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:34px;}
+#But7.Down p {color:#08384E;top:7px;left:35px;}
+#But7.Over p {color:#08384E;top:6px;left:34px;}
+#But7 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:477px;top:250px;width:678px;height:553px;z-index:17;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-edifices-et-la-vie-avant-la-revolution_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:560px;top:338px;width:523px;height:318px;z-index:18;min-width:523px;}
+#Img2Inner {position: absolute;width:523px;height:318px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:19px;top:760px;width:338px;height:35px;z-index:19;background:url('buttons/les-edifices-et-la-vie-avant-la-revolution_But7.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -338px 0;}
+#But8.Over {background-position: -676px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:111px;}
+#But8.Down p {color:#08384E;top:7px;left:112px;}
+#But8.Over p {color:#08384E;top:6px;left:111px;}
+#But8 div {display:none;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:618px;top:328px;width:411px;height:255px;z-index:20;min-width:411px;}
+#Img4Inner {position: absolute;width:411px;height:255px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:486px;top:408px;width:658px;height:284px;z-index:21;min-width:658px;}
+#Img5Inner {position: absolute;width:658px;height:284px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:522px;top:403px;width:586px;height:261px;z-index:22;min-width:586px;}
+#Img6Inner {position: absolute;width:586px;height:261px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:541px;top:353px;width:542px;height:362px;z-index:23;min-width:542px;}
+#Img7Inner {position: absolute;width:542px;height:362px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:520px;top:386px;width:594px;height:225px;z-index:24;min-width:594px;}
+#Img8Inner {position: absolute;width:594px;height:225px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:544px;top:338px;width:518px;height:314px;z-index:25;min-width:518px;}
+#Img9Inner {position: absolute;width:518px;height:314px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:603px;top:346px;width:480px;height:333px;z-index:26;min-width:480px;}
+#Img10Inner {position: absolute;width:480px;height:333px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:611px;top:403px;width:418px;height:225px;z-index:27;min-width:418px;}
+#Img11Inner {position: absolute;width:418px;height:225px;border:0px;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:28;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}

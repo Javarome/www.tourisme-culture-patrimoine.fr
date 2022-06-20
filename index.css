@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("images/pagedacceuil3.jpg");
+}
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #B3C3D7;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  font-weight: 300;
+  font-size: 1.2em;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.title h1 {
+  color: #FAE49F;
+  font-weight: inherit;
+}
+.main-nav {
+  display: flex;
+  margin: 0;
+  background-color: #B3C3D7;
+  font-size: 1.4em;
+  font-weight: bold;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-nav .nav {
+  min-width: 33%;
+  padding: 0.5em 1em;
+}
+.main-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo img {
+  margin: 1em;
+  max-width: 220px;
+}
+
+.office {
+  margin: 1em;
+  text-align: right;
+}
+.office img {
+  width: 350px;
+}
+.office figcaption {
+  color: #FAE49F;
+  font-size: 1.5em;
+}
+.sections {
+  display: flex;
+  background-image: url(images/bandeau2.jpg);
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.sections a {
+  text-decoration: none;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #1D3046;
+  padding: 0.25em;
+}
+.content {
+  display: flex;
+  background-image: url(images/pagedacceuil3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.content .book {
+  max-height: 500px;
+}
+#Form2 {
+  background-color: rgba(224, 219, 156,1.000);
+  padding: 0.5em;
+  margin: 1em;
+}
+
+#old {
+  display: none;
+}

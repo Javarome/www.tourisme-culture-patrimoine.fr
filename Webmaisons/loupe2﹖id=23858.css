@@ -1,0 +1,421 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:840px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:-7px;top:-37px;width:1516px;height:765px;z-index:2;min-width:1516px;}
+#Img1Inner {position: absolute;width:1516px;height:765px;border:0px;}
+#But4 {display:block;overflow:hidden;position:absolute;left:13px;top:20px;width:260px;height:49px;z-index:3;background:url('buttons/loupe2_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -260px 0;}
+#But4.Over {background-position: -520px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:21px;color:#FFFF00;}
+#But4.Up p {top:13px;left:12px;}
+#But4.Down p {top:14px;left:13px;}
+#But4.Over p {top:13px;left:12px;}
+#But4 div {display:none;}
+#But16 {display:block;overflow:hidden;position:absolute;left:13px;top:324px;width:287px;height:49px;z-index:4;background:url('buttons/loupe2_But16.png');background-repeat:no-repeat;}
+#But16.Up {background-position: 0 0;}
+#But16.Down {background-position: -287px 0;}
+#But16.Over {background-position: -574px 0;}
+#But16 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But16.Up p {top:26px;left:147px;}
+#But16.Down p {top:27px;left:148px;}
+#But16.Over p {top:26px;left:147px;}
+#But16 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:10px;top:76px;width:194px;height:125px;z-index:5;background:url('buttons/loupe2_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -194px 0;}
+#But1.Over {background-position: -388px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But1.Up p {top:64px;left:100px;}
+#But1.Down p {top:65px;left:101px;}
+#But1.Over p {top:64px;left:100px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:247px;top:74px;width:194px;height:208px;z-index:6;background:url('buttons/loupe2_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -194px 0;}
+#But2.Over {background-position: -388px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But2.Up p {top:105px;left:100px;}
+#But2.Down p {top:106px;left:101px;}
+#But2.Over p {top:105px;left:100px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:4px;top:379px;width:159px;height:49px;z-index:7;background:url('buttons/loupe2_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -159px 0;}
+#But3.Over {background-position: -318px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But3.Up p {top:26px;left:83px;}
+#But3.Down p {top:27px;left:84px;}
+#But3.Over p {top:26px;left:83px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:275px;top:419px;width:64px;height:96px;z-index:8;background:url('buttons/loupe2_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -64px 0;}
+#But5.Over {background-position: -128px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But5.Up p {top:49px;left:35px;}
+#But5.Down p {top:50px;left:36px;}
+#But5.Over p {top:49px;left:35px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:354px;top:281px;width:62px;height:121px;z-index:9;background:url('buttons/loupe2_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -62px 0;}
+#But6.Over {background-position: -124px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But6.Up p {top:62px;left:34px;}
+#But6.Down p {top:63px;left:35px;}
+#But6.Over p {top:62px;left:34px;}
+#But6 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:355px;top:406px;width:54px;height:102px;z-index:10;background:url('buttons/loupe2_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -54px 0;}
+#But7.Over {background-position: -108px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But7.Up p {top:52px;left:30px;}
+#But7.Down p {top:53px;left:31px;}
+#But7.Over p {top:52px;left:30px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:427px;top:158px;width:121px;height:226px;z-index:11;background:url('buttons/loupe2_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -121px 0;}
+#But8.Over {background-position: -242px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But8.Up p {top:114px;left:64px;}
+#But8.Down p {top:115px;left:65px;}
+#But8.Over p {top:114px;left:64px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:444px;top:21px;width:106px;height:136px;z-index:12;background:url('buttons/loupe2_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -106px 0;}
+#But9.Over {background-position: -212px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But9.Up p {top:69px;left:56px;}
+#But9.Down p {top:70px;left:57px;}
+#But9.Over p {top:69px;left:56px;}
+#But9 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:631px;top:95px;width:106px;height:152px;z-index:13;background:url('buttons/loupe2_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -106px 0;}
+#But10.Over {background-position: -212px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But10.Up p {top:77px;left:56px;}
+#But10.Down p {top:78px;left:57px;}
+#But10.Over p {top:77px;left:56px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:646px;top:0px;width:106px;height:83px;z-index:14;background:url('buttons/loupe2_But11.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -106px 0;}
+#But11.Over {background-position: -212px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But11.Up p {top:43px;left:56px;}
+#But11.Down p {top:44px;left:57px;}
+#But11.Over p {top:43px;left:56px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:590px;top:310px;width:51px;height:71px;z-index:15;background:url('buttons/loupe2_But12.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -51px 0;}
+#But12.Over {background-position: -102px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But12.Up p {top:37px;left:29px;}
+#But12.Down p {top:38px;left:30px;}
+#But12.Over p {top:37px;left:29px;}
+#But12 div {display:none;}
+#Text7 {word-wrap:break-word; display:none;position:absolute;left:551px;top:514px;width:44px;height:26px;z-index:16;background-color:#ffffff;}
+#But13 {display:block;overflow:hidden;position:absolute;left:566px;top:420px;width:51px;height:59px;z-index:17;background:url('buttons/loupe2_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -51px 0;}
+#But13.Over {background-position: -102px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But13.Up p {top:31px;left:29px;}
+#But13.Down p {top:32px;left:30px;}
+#But13.Over p {top:31px;left:29px;}
+#But13 div {display:none;}
+#But14 {display:block;overflow:hidden;position:absolute;left:661px;top:258px;width:51px;height:119px;z-index:18;background:url('buttons/loupe2_But14.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -51px 0;}
+#But14.Over {background-position: -102px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But14.Up p {top:61px;left:29px;}
+#But14.Down p {top:62px;left:30px;}
+#But14.Over p {top:61px;left:29px;}
+#But14 div {display:none;}
+#But15 {display:block;overflow:hidden;position:absolute;left:626px;top:429px;width:69px;height:100px;z-index:19;background:url('buttons/loupe2_But15.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -69px 0;}
+#But15.Over {background-position: -138px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But15.Up p {top:51px;left:38px;}
+#But15.Down p {top:52px;left:39px;}
+#But15.Over p {top:51px;left:38px;}
+#But15 div {display:none;}
+#But17 {display:block;overflow:hidden;position:absolute;left:702px;top:432px;width:51px;height:100px;z-index:20;background:url('buttons/loupe2_But17.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -51px 0;}
+#But17.Over {background-position: -102px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But17.Up p {top:51px;left:29px;}
+#But17.Down p {top:52px;left:30px;}
+#But17.Over p {top:51px;left:29px;}
+#But17 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:764px;top:344px;width:61px;height:47px;z-index:21;background:url('buttons/loupe2_But18.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -61px 0;}
+#But18.Over {background-position: -122px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But18.Up p {top:25px;left:34px;}
+#But18.Down p {top:26px;left:35px;}
+#But18.Over p {top:25px;left:34px;}
+#But18 div {display:none;}
+#But19 {display:block;overflow:hidden;position:absolute;left:866px;top:442px;width:35px;height:100px;z-index:22;background:url('buttons/loupe2_But19.png');background-repeat:no-repeat;}
+#But19.Up {background-position: 0 0;}
+#But19.Down {background-position: -35px 0;}
+#But19.Over {background-position: -70px 0;}
+#But19 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But19.Up p {top:51px;left:21px;}
+#But19.Down p {top:52px;left:22px;}
+#But19.Over p {top:51px;left:21px;}
+#But19 div {display:none;}
+#But20 {display:block;overflow:hidden;position:absolute;left:740px;top:169px;width:45px;height:80px;z-index:23;background:url('buttons/loupe2_But20.png');background-repeat:no-repeat;}
+#But20.Up {background-position: 0 0;}
+#But20.Down {background-position: -45px 0;}
+#But20.Over {background-position: -90px 0;}
+#But20 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But20.Up p {top:41px;left:26px;}
+#But20.Down p {top:42px;left:27px;}
+#But20.Over p {top:41px;left:26px;}
+#But20 div {display:none;}
+#But21 {display:block;overflow:hidden;position:absolute;left:903px;top:319px;width:73px;height:219px;z-index:24;background:url('buttons/loupe2_But21.png');background-repeat:no-repeat;}
+#But21.Up {background-position: 0 0;}
+#But21.Down {background-position: -73px 0;}
+#But21.Over {background-position: -146px 0;}
+#But21 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But21.Up p {top:111px;left:40px;}
+#But21.Down p {top:112px;left:41px;}
+#But21.Over p {top:111px;left:40px;}
+#But21 div {display:none;}
+#But22 {display:block;overflow:hidden;position:absolute;left:732px;top:258px;width:58px;height:79px;z-index:25;background:url('buttons/loupe2_But22.png');background-repeat:no-repeat;}
+#But22.Up {background-position: 0 0;}
+#But22.Down {background-position: -58px 0;}
+#But22.Over {background-position: -116px 0;}
+#But22 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But22.Up p {top:41px;left:32px;}
+#But22.Down p {top:42px;left:33px;}
+#But22.Over p {top:41px;left:32px;}
+#But22 div {display:none;}
+#But23 {display:block;overflow:hidden;position:absolute;left:770px;top:22px;width:84px;height:140px;z-index:26;background:url('buttons/loupe2_But23.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -84px 0;}
+#But23.Over {background-position: -168px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But23.Up p {top:71px;left:45px;}
+#But23.Down p {top:72px;left:46px;}
+#But23.Over p {top:71px;left:45px;}
+#But23 div {display:none;}
+#But24 {display:block;overflow:hidden;position:absolute;left:729px;top:258px;width:58px;height:79px;z-index:27;background:url('buttons/loupe2_But22.png');background-repeat:no-repeat;}
+#But24.Up {background-position: 0 0;}
+#But24.Down {background-position: -58px 0;}
+#But24.Over {background-position: -116px 0;}
+#But24 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But24.Up p {top:41px;left:32px;}
+#But24.Down p {top:42px;left:33px;}
+#But24.Over p {top:41px;left:32px;}
+#But24 div {display:none;}
+#But25 {display:block;overflow:hidden;position:absolute;left:738px;top:177px;width:58px;height:63px;z-index:28;background:url('buttons/loupe2_But25.png');background-repeat:no-repeat;}
+#But25.Up {background-position: 0 0;}
+#But25.Down {background-position: -58px 0;}
+#But25.Over {background-position: -116px 0;}
+#But25 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But25.Up p {top:33px;left:32px;}
+#But25.Down p {top:34px;left:33px;}
+#But25.Over p {top:33px;left:32px;}
+#But25 div {display:none;}
+#But26 {display:block;overflow:hidden;position:absolute;left:784px;top:147px;width:36px;height:22px;z-index:29;background:url('buttons/loupe2_But26.png');background-repeat:no-repeat;}
+#But26.Up {background-position: 0 0;}
+#But26.Down {background-position: -36px 0;}
+#But26.Over {background-position: -72px 0;}
+#But26 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But26.Up p {top:12px;left:21px;}
+#But26.Down p {top:13px;left:22px;}
+#But26.Over p {top:12px;left:21px;}
+#But26 div {display:none;}
+#But27 {display:block;overflow:hidden;position:absolute;left:943px;top:125px;width:40px;height:126px;z-index:30;background:url('buttons/loupe2_But27.png');background-repeat:no-repeat;}
+#But27.Up {background-position: 0 0;}
+#But27.Down {background-position: -40px 0;}
+#But27.Over {background-position: -80px 0;}
+#But27 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But27.Up p {top:64px;left:23px;}
+#But27.Down p {top:65px;left:24px;}
+#But27.Over p {top:64px;left:23px;}
+#But27 div {display:none;}
+#But28 {display:block;overflow:hidden;position:absolute;left:795px;top:175px;width:33px;height:27px;z-index:31;background:url('buttons/loupe2_But28.png');background-repeat:no-repeat;}
+#But28.Up {background-position: 0 0;}
+#But28.Down {background-position: -33px 0;}
+#But28.Over {background-position: -66px 0;}
+#But28 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But28.Up p {top:15px;left:20px;}
+#But28.Down p {top:16px;left:21px;}
+#But28.Over p {top:15px;left:20px;}
+#But28 div {display:none;}
+#But29 {display:block;overflow:hidden;position:absolute;left:774px;top:30px;width:84px;height:140px;z-index:32;background:url('buttons/loupe2_But23.png');background-repeat:no-repeat;}
+#But29.Up {background-position: 0 0;}
+#But29.Down {background-position: -84px 0;}
+#But29.Over {background-position: -168px 0;}
+#But29 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But29.Up p {top:71px;left:45px;}
+#But29.Down p {top:72px;left:46px;}
+#But29.Over p {top:71px;left:45px;}
+#But29 div {display:none;}
+#Text18 {word-wrap:break-word; display:none;position:absolute;left:150px;top:454px;width:44px;height:26px;z-index:33;background-color:#ffffff;}
+#But30 {display:block;overflow:hidden;position:absolute;left:170px;top:385px;width:67px;height:49px;z-index:34;background:url('buttons/loupe2_But30.png');background-repeat:no-repeat;}
+#But30.Up {background-position: 0 0;}
+#But30.Down {background-position: -67px 0;}
+#But30.Over {background-position: -134px 0;}
+#But30 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But30.Up p {top:26px;left:37px;}
+#But30.Down p {top:27px;left:38px;}
+#But30.Over p {top:26px;left:37px;}
+#But30 div {display:none;}
+#But31 {display:block;overflow:hidden;position:absolute;left:892px;top:149px;width:40px;height:32px;z-index:35;background:url('buttons/loupe2_But31.png');background-repeat:no-repeat;}
+#But31.Up {background-position: 0 0;}
+#But31.Down {background-position: -40px 0;}
+#But31.Over {background-position: -80px 0;}
+#But31 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But31.Up p {top:17px;left:23px;}
+#But31.Down p {top:18px;left:24px;}
+#But31.Over p {top:17px;left:23px;}
+#But31 div {display:none;}
+#But32 {display:block;overflow:hidden;position:absolute;left:877px;top:111px;width:42px;height:37px;z-index:36;background:url('buttons/loupe2_But32.png');background-repeat:no-repeat;}
+#But32.Up {background-position: 0 0;}
+#But32.Down {background-position: -42px 0;}
+#But32.Over {background-position: -84px 0;}
+#But32 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But32.Up p {top:20px;left:24px;}
+#But32.Down p {top:21px;left:25px;}
+#But32.Over p {top:20px;left:24px;}
+#But32 div {display:none;}
+#But33 {display:block;overflow:hidden;position:absolute;left:982px;top:199px;width:79px;height:201px;z-index:37;background:url('buttons/loupe2_But33.png');background-repeat:no-repeat;}
+#But33.Up {background-position: 0 0;}
+#But33.Down {background-position: -79px 0;}
+#But33.Over {background-position: -158px 0;}
+#But33 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But33.Up p {top:102px;left:43px;}
+#But33.Down p {top:103px;left:44px;}
+#But33.Over p {top:102px;left:43px;}
+#But33 div {display:none;}
+#But34 {display:block;overflow:hidden;position:absolute;left:1087px;top:139px;width:94px;height:259px;z-index:38;background:url('buttons/loupe2_But34.png');background-repeat:no-repeat;}
+#But34.Up {background-position: 0 0;}
+#But34.Down {background-position: -94px 0;}
+#But34.Over {background-position: -188px 0;}
+#But34 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But34.Up p {top:131px;left:50px;}
+#But34.Down p {top:132px;left:51px;}
+#But34.Over p {top:131px;left:50px;}
+#But34 div {display:none;}
+#But35 {display:block;overflow:hidden;position:absolute;left:991px;top:5px;width:86px;height:160px;z-index:39;background:url('buttons/loupe2_But35.png');background-repeat:no-repeat;}
+#But35.Up {background-position: 0 0;}
+#But35.Down {background-position: -86px 0;}
+#But35.Over {background-position: -172px 0;}
+#But35 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But35.Up p {top:81px;left:46px;}
+#But35.Down p {top:82px;left:47px;}
+#But35.Over p {top:81px;left:46px;}
+#But35 div {display:none;}
+#But36 {display:block;overflow:hidden;position:absolute;left:931px;top:11px;width:57px;height:94px;z-index:40;background:url('buttons/loupe2_But36.png');background-repeat:no-repeat;}
+#But36.Up {background-position: 0 0;}
+#But36.Down {background-position: -57px 0;}
+#But36.Over {background-position: -114px 0;}
+#But36 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But36.Up p {top:48px;left:32px;}
+#But36.Down p {top:49px;left:33px;}
+#But36.Over p {top:48px;left:32px;}
+#But36 div {display:none;}
+#But37 {display:block;overflow:hidden;position:absolute;left:836px;top:251px;width:58px;height:79px;z-index:41;background:url('buttons/loupe2_But22.png');background-repeat:no-repeat;}
+#But37.Up {background-position: 0 0;}
+#But37.Down {background-position: -58px 0;}
+#But37.Over {background-position: -116px 0;}
+#But37 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But37.Up p {top:41px;left:32px;}
+#But37.Down p {top:42px;left:33px;}
+#But37.Over p {top:41px;left:32px;}
+#But37 div {display:none;}
+#But38 {display:block;overflow:hidden;position:absolute;left:1062px;top:452px;width:60px;height:43px;z-index:42;background:url('buttons/loupe2_But38.png');background-repeat:no-repeat;}
+#But38.Up {background-position: 0 0;}
+#But38.Down {background-position: -60px 0;}
+#But38.Over {background-position: -120px 0;}
+#But38 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But38.Up p {top:23px;left:33px;}
+#But38.Down p {top:24px;left:34px;}
+#But38.Over p {top:23px;left:33px;}
+#But38 div {display:none;}
+#But39 {display:block;overflow:hidden;position:absolute;left:820px;top:179px;width:58px;height:68px;z-index:43;background:url('buttons/loupe2_But39.png');background-repeat:no-repeat;}
+#But39.Up {background-position: 0 0;}
+#But39.Down {background-position: -58px 0;}
+#But39.Over {background-position: -116px 0;}
+#But39 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But39.Up p {top:35px;left:32px;}
+#But39.Down p {top:36px;left:33px;}
+#But39.Over p {top:35px;left:32px;}
+#But39 div {display:none;}
+#But40 {display:block;overflow:hidden;position:absolute;left:1140px;top:449px;width:91px;height:141px;z-index:44;background:url('buttons/loupe2_But40.png');background-repeat:no-repeat;}
+#But40.Up {background-position: 0 0;}
+#But40.Down {background-position: -91px 0;}
+#But40.Over {background-position: -182px 0;}
+#But40 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But40.Up p {top:72px;left:49px;}
+#But40.Down p {top:73px;left:50px;}
+#But40.Over p {top:72px;left:49px;}
+#But40 div {display:none;}
+#But41 {display:block;overflow:hidden;position:absolute;left:1180px;top:144px;width:91px;height:260px;z-index:45;background:url('buttons/loupe2_But41.png');background-repeat:no-repeat;}
+#But41.Up {background-position: 0 0;}
+#But41.Down {background-position: -91px 0;}
+#But41.Over {background-position: -182px 0;}
+#But41 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But41.Up p {top:131px;left:49px;}
+#But41.Down p {top:132px;left:50px;}
+#But41.Over p {top:131px;left:49px;}
+#But41 div {display:none;}
+#But42 {display:block;overflow:hidden;position:absolute;left:828px;top:344px;width:41px;height:47px;z-index:46;background:url('buttons/loupe2_But42.png');background-repeat:no-repeat;}
+#But42.Up {background-position: 0 0;}
+#But42.Down {background-position: -41px 0;}
+#But42.Over {background-position: -82px 0;}
+#But42 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But42.Up p {top:25px;left:24px;}
+#But42.Down p {top:26px;left:25px;}
+#But42.Over p {top:25px;left:24px;}
+#But42 div {display:none;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:814px;top:494px;width:249px;height:167px;z-index:47;min-width:249px;}
+#Img2Inner {position: absolute;width:249px;height:167px;border:0px;}
+#Img3 {display:none;overflow:hidden;position:absolute;left:6px;top:455px;width:145px;height:217px;z-index:48;min-width:145px;}
+#Img3Inner {position: absolute;width:145px;height:217px;border:0px;}
+#But43 {display:block;overflow:hidden;position:absolute;left:759px;top:432px;width:103px;height:115px;z-index:49;background:url('buttons/loupe2_But43.png');background-repeat:no-repeat;}
+#But43.Up {background-position: 0 0;}
+#But43.Down {background-position: -103px 0;}
+#But43.Over {background-position: -206px 0;}
+#But43 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But43.Up p {top:59px;left:55px;}
+#But43.Down p {top:60px;left:56px;}
+#But43.Over p {top:59px;left:55px;}
+#But43 div {display:none;}
+#But44 {display:block;overflow:hidden;position:absolute;left:431px;top:403px;width:121px;height:87px;z-index:50;background:url('buttons/loupe2_But44.png');background-repeat:no-repeat;}
+#But44.Up {background-position: 0 0;}
+#But44.Down {background-position: -121px 0;}
+#But44.Over {background-position: -242px 0;}
+#But44 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But44.Up p {top:45px;left:64px;}
+#But44.Down p {top:46px;left:65px;}
+#But44.Over p {top:45px;left:64px;}
+#But44 div {display:none;}
+#But45 {display:block;overflow:hidden;position:absolute;left:110px;top:496px;width:100px;height:94px;z-index:51;background:url('buttons/loupe2_But45.png');background-repeat:no-repeat;}
+#But45.Up {background-position: 0 0;}
+#But45.Down {background-position: -100px 0;}
+#But45.Over {background-position: -200px 0;}
+#But45 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But45.Up p {top:48px;left:53px;}
+#But45.Down p {top:49px;left:54px;}
+#But45.Over p {top:48px;left:53px;}
+#But45 div {display:none;}

@@ -1,0 +1,206 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:34px;top:0px;width:1220px;height:711px;z-index:2;min-width:1220px;}
+#Img1Inner {position: absolute;width:1220px;height:711px;border:0px;}
+#But2 {display:block;overflow:hidden;position:absolute;left:820px;top:521px;width:20px;height:18px;z-index:3;background:url('buttons/la-carte_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -20px 0;}
+#But2.Over {background-position: -40px 0;}
+#But2 p {cursor:default;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But2.Up p {top:10px;left:13px;}
+#But2.Down p {top:11px;left:14px;}
+#But2.Over p {top:10px;left:13px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:14px;top:14px;width:100px;height:72px;z-index:4;background:url('buttons/la-carte_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -100px 0;}
+#But3.Over {background-position: -200px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But3.Up p {top:37px;left:53px;}
+#But3.Down p {top:38px;left:54px;}
+#But3.Over p {top:37px;left:53px;}
+#But3 div {display:none;}
+#Text3 {word-wrap:break-word; display:none;position:absolute;left:58px;top:61px;width:62px;height:26px;z-index:5;background-color:#ffffff;}
+#But5 {display:block;overflow:hidden;position:absolute;left:629px;top:381px;width:40px;height:24px;z-index:6;background:url('buttons/la-carte_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -40px 0;}
+#But5.Over {background-position: -80px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But5.Up p {top:13px;left:23px;}
+#But5.Down p {top:14px;left:24px;}
+#But5.Over p {top:13px;left:23px;}
+#But5 div {display:none;}
+#But44 {display:block;overflow:hidden;position:absolute;left:854px;top:504px;width:41px;height:98px;z-index:7;background:url('buttons/la-carte_But44.png');background-repeat:no-repeat;}
+#But44.Up {background-position: 0 0;}
+#But44.Down {background-position: -41px 0;}
+#But44.Over {background-position: -82px 0;}
+#But44 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:11px;color:#000000;}
+#But44.Up p {top:50px;left:24px;}
+#But44.Down p {top:51px;left:25px;}
+#But44.Over p {top:50px;left:24px;}
+#But44 div {display:none;}
+#But21 {display:block;overflow:hidden;position:absolute;left:29px;top:105px;width:650px;height:547px;z-index:8;background:url('buttons/la-carte_But21.png');background-repeat:no-repeat;}
+#But21.Up {background-position: 0 0;}
+#But21.Down {background-position: -650px 0;}
+#But21.Over {background-position: -1300px 0;}
+#But21 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:24px;color:#FF0000;}
+#But21.Up p {top:260px;left:198px;}
+#But21.Down p {top:261px;left:199px;}
+#But21.Over p {top:260px;left:198px;}
+#But21 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:681px;top:106px;width:560px;height:584px;z-index:9;background:url('buttons/la-carte_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -560px 0;}
+#But1.Over {background-position: -1120px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:24px;color:#FF0000;}
+#But1.Up p {top:278px;left:169px;}
+#But1.Down p {top:279px;left:170px;}
+#But1.Over p {top:278px;left:169px;}
+#But1 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:290px;top:10px;width:79px;height:74px;z-index:10;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -79px 0;}
+#But6.Over {background-position: -158px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But6.Up p {top:38px;left:43px;}
+#But6.Down p {top:39px;left:44px;}
+#But6.Over p {top:38px;left:43px;}
+#But6 div {display:none;}
+#Text1 {word-wrap:break-word; display:none;position:absolute;left:100px;top:282px;width:115px;height:24px;z-index:11;}
+#Text2 {word-wrap:break-word; display:none;position:absolute;left:259px;top:88px;width:147px;height:24px;z-index:12;}
+#But7 {display:block;overflow:hidden;position:absolute;left:1149px;top:568px;width:79px;height:74px;z-index:13;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -79px 0;}
+#But7.Over {background-position: -158px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But7.Up p {top:38px;left:43px;}
+#But7.Down p {top:39px;left:44px;}
+#But7.Over p {top:38px;left:43px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:130px;top:195px;width:79px;height:74px;z-index:14;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -79px 0;}
+#But8.Over {background-position: -158px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But8.Up p {top:38px;left:43px;}
+#But8.Down p {top:39px;left:44px;}
+#But8.Over p {top:38px;left:43px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:1139px;top:210px;width:79px;height:74px;z-index:15;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -79px 0;}
+#But9.Over {background-position: -158px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But9.Up p {top:38px;left:43px;}
+#But9.Down p {top:39px;left:44px;}
+#But9.Over p {top:38px;left:43px;}
+#But9 div {display:none;}
+#Text4 {word-wrap:break-word; display:none;position:absolute;left:1120px;top:289px;width:129px;height:24px;z-index:16;}
+#Text5 {word-wrap:break-word; display:none;position:absolute;left:1115px;top:645px;width:126px;height:24px;z-index:17;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:280px;top:190px;width:660px;height:403px;z-index:18;min-width:660px;}
+#Img2Inner {position: absolute;width:660px;height:403px;border:0px;}
+#Img3 {display:none;overflow:hidden;position:absolute;left:270px;top:190px;width:660px;height:403px;z-index:19;min-width:660px;}
+#Img3Inner {position: absolute;width:660px;height:403px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:270px;top:180px;width:780px;height:476px;z-index:20;min-width:780px;}
+#Img4Inner {position: absolute;width:780px;height:476px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:270px;top:180px;width:780px;height:476px;z-index:21;min-width:780px;}
+#Img5Inner {position: absolute;width:780px;height:476px;border:0px;}
+#But4 {display:block;overflow:hidden;position:absolute;left:1020px;top:8px;width:79px;height:74px;z-index:22;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -79px 0;}
+#But4.Over {background-position: -158px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But4.Up p {top:38px;left:43px;}
+#But4.Down p {top:39px;left:44px;}
+#But4.Over p {top:38px;left:43px;}
+#But4 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:905px;top:6px;width:79px;height:74px;z-index:23;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -79px 0;}
+#But10.Over {background-position: -158px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But10.Up p {top:38px;left:43px;}
+#But10.Down p {top:39px;left:44px;}
+#But10.Over p {top:38px;left:43px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:418px;top:10px;width:79px;height:74px;z-index:24;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -79px 0;}
+#But11.Over {background-position: -158px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But11.Up p {top:38px;left:43px;}
+#But11.Down p {top:39px;left:44px;}
+#But11.Over p {top:38px;left:43px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:1145px;top:455px;width:79px;height:74px;z-index:25;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -79px 0;}
+#But12.Over {background-position: -158px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But12.Up p {top:38px;left:43px;}
+#But12.Down p {top:39px;left:44px;}
+#But12.Over p {top:38px;left:43px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:1144px;top:330px;width:79px;height:74px;z-index:26;background:url('buttons/la-carte_But8.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -79px 0;}
+#But13.Over {background-position: -158px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Microsoft Sans Serif;font-size:13px;color:#FF0000;}
+#But13.Up p {top:38px;left:43px;}
+#But13.Down p {top:39px;left:44px;}
+#But13.Over p {top:38px;left:43px;}
+#But13 div {display:none;}
+#Text6 {word-wrap:break-word; display:none;position:absolute;left:1116px;top:532px;width:126px;height:24px;z-index:27;}
+#Text7 {word-wrap:break-word; display:none;position:absolute;left:1100px;top:413px;width:205px;height:24px;z-index:28;}
+#Text8 {word-wrap:break-word; display:none;position:absolute;left:992px;top:88px;width:129px;height:24px;z-index:29;}
+#Text9 {word-wrap:break-word; display:none;position:absolute;left:892px;top:87px;width:102px;height:24px;z-index:30;}
+#Text10 {word-wrap:break-word; display:none;position:absolute;left:402px;top:86px;width:104px;height:24px;z-index:31;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:270px;top:190px;width:666px;height:509px;z-index:32;min-width:666px;}
+#Img6Inner {position: absolute;width:666px;height:509px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:280px;top:634px;width:68px;height:56px;z-index:33;min-width:68px;}
+#Img7Inner {position: absolute;width:68px;height:56px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:376px;top:483px;width:68px;height:56px;z-index:34;min-width:68px;}
+#Img8Inner {position: absolute;width:68px;height:56px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:802px;top:195px;width:68px;height:56px;z-index:35;min-width:68px;}
+#Img9Inner {position: absolute;width:68px;height:56px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:772px;top:562px;width:68px;height:56px;z-index:36;min-width:68px;}
+#Img10Inner {position: absolute;width:68px;height:56px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:927px;top:568px;width:68px;height:56px;z-index:37;min-width:68px;}
+#Img11Inner {position: absolute;width:68px;height:56px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:270px;top:190px;width:745px;height:455px;z-index:38;min-width:745px;}
+#Img12Inner {position: absolute;width:745px;height:455px;border:0px;}
+#Img13 {display:none;overflow:hidden;position:absolute;left:280px;top:190px;width:742px;height:453px;z-index:39;min-width:742px;}
+#Img13Inner {position: absolute;width:742px;height:453px;border:0px;}
+#Img14 {display:none;overflow:hidden;position:absolute;left:280px;top:190px;width:747px;height:456px;z-index:40;min-width:747px;}
+#Img14Inner {position: absolute;width:747px;height:456px;border:0px;}
+#Img15 {display:none;overflow:hidden;position:absolute;left:280px;top:190px;width:746px;height:455px;z-index:41;min-width:746px;}
+#Img15Inner {position: absolute;width:746px;height:455px;border:0px;}
+#But14 {display:block;overflow:hidden;position:absolute;left:496px;top:72px;width:397px;height:39px;z-index:42;background:url('buttons/la-carte_But14.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -397px 0;}
+#But14.Over {background-position: -794px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:19px;color:#FFFFFF;}
+#But14.Up p {top:9px;left:19px;}
+#But14.Down p {top:10px;left:20px;}
+#But14.Over p {top:9px;left:19px;}
+#But14 div {display:none;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:162px;top:12px;width:52px;height:70px;z-index:43;min-width:52px;}
+#Img16Inner {position: absolute;width:52px;height:70px;border:0px;}
+#Img17 {display:block;overflow:hidden;position:absolute;left:1154px;top:7px;width:55px;height:74px;z-index:44;min-width:55px;}
+#Img17Inner {position: absolute;width:55px;height:74px;border:0px;}
+#Obj1 {word-wrap:break-word; display:none;position:absolute;left:113px;top:88px;width:147px;height:50px;z-index:45;}
+#Obj2 {word-wrap:break-word; display:none;position:absolute;left:1120px;top:88px;width:130px;height:51px;z-index:46;}
+#Img18 {display:none;overflow:hidden;position:absolute;left:313px;top:200px;width:615px;height:470px;z-index:47;min-width:615px;}
+#Img18Inner {position: absolute;width:615px;height:470px;border:0px;}
+#Img19 {display:none;overflow:hidden;position:absolute;left:520px;top:548px;width:52px;height:70px;z-index:48;min-width:52px;}
+#Img19Inner {position: absolute;width:52px;height:70px;border:0px;}
+#Img20 {display:none;overflow:hidden;position:absolute;left:320px;top:200px;width:630px;height:482px;z-index:49;min-width:630px;}
+#Img20Inner {position: absolute;width:630px;height:482px;border:0px;}
+#Img21 {display:none;overflow:hidden;position:absolute;left:621px;top:538px;width:55px;height:74px;z-index:50;min-width:55px;}
+#Img21Inner {position: absolute;width:55px;height:74px;border:0px;}

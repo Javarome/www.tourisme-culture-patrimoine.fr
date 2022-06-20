@@ -1,0 +1,129 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img16 {display:block;overflow:hidden;position:absolute;left:-10px;top:268px;width:1313px;height:586px;z-index:2;min-width:1313px;}
+#Img16Inner {position: absolute;width:1313px;height:586px;border:0px;}
+#But9 {display:block;overflow:hidden;position:absolute;left:621px;top:415px;width:271px;height:35px;z-index:3;background:url('buttons/patrimoineindex_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -271px 0;}
+#But9.Over {background-position: -542px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#FFFFFF;top:6px;left:2px;}
+#But9.Down p {color:#08384E;top:7px;left:3px;}
+#But9.Over p {color:#554536;top:6px;left:2px;}
+#But9 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:610px;top:443px;width:251px;height:35px;z-index:4;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -251px 0;}
+#But2.Over {background-position: -502px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#FFFFFF;top:6px;left:58px;}
+#But2.Down p {color:#08384E;top:7px;left:59px;}
+#But2.Over p {color:#08384E;top:6px;left:58px;}
+#But2 div {display:none;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-13px;top:2px;width:1343px;height:259px;z-index:5;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/patrimoineindex_Box1.png');background-repeat:no-repeat;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1001px;top:4px;width:286px;height:169px;z-index:6;min-width:286px;}
+#Img3Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:242px;top:53px;width:763px;height:124px;z-index:7;}
+#But8 {display:block;overflow:hidden;position:absolute;left:212px;top:207px;width:251px;height:35px;z-index:8;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -251px 0;}
+#But8.Over {background-position: -502px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But8.Up p {color:#FFFFFF;top:2px;left:68px;}
+#But8.Down p {color:#08384E;top:3px;left:69px;}
+#But8.Over p {color:#FCE48A;top:2px;left:68px;}
+#But8 div {display:none;}
+#Text4 {word-wrap:break-word; overflow:auto;overflowX:hidden;overflowY:hidden;display:block;position:absolute;left:1042px;top:192px;width:247px;height:30px;z-index:9;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:32px;top:37px;width:138px;height:138px;z-index:10;min-width:138px;}
+#Img4Inner {position: absolute;width:138px;height:138px;border:0px;}
+#But15 {display:block;overflow:hidden;position:absolute;left:628px;top:509px;width:251px;height:35px;z-index:11;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -251px 0;}
+#But15.Over {background-position: -502px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But15.Up p {color:#FFFFFF;top:6px;left:34px;}
+#But15.Down p {color:#08384E;top:7px;left:35px;}
+#But15.Over p {color:#08384E;top:6px;left:34px;}
+#But15 div {display:none;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:24px;top:422px;width:565px;height:340px;z-index:12;min-width:565px;}
+#Img12Inner {position: absolute;width:565px;height:340px;border:0px;}
+#Img17 {display:none;overflow:hidden;position:absolute;left:24px;top:422px;width:569px;height:386px;z-index:13;min-width:569px;}
+#Img17Inner {position: absolute;width:569px;height:386px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:-10px;top:243px;width:1312px;height:171px;z-index:14;min-width:1312px;}
+#Img2Inner {position: absolute;width:1312px;height:171px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:41px;top:381px;width:251px;height:35px;z-index:15;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -251px 0;}
+#But7.Over {background-position: -502px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But7.Up p {color:#08384F;top:2px;left:46px;}
+#But7.Down p {color:#EFD79E;top:3px;left:47px;}
+#But7.Over p {color:#E3CE79;top:2px;left:46px;}
+#But7 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:597px;top:377px;width:291px;height:35px;z-index:16;background:url('buttons/patrimoineindex_But13.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -291px 0;}
+#But13.Over {background-position: -582px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But13.Up p {color:#07384E;top:2px;left:41px;}
+#But13.Down p {color:#F1D673;top:3px;left:42px;}
+#But13.Over p {color:#E0C06C;top:2px;left:41px;}
+#But13 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:333px;top:377px;width:251px;height:35px;z-index:17;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -251px 0;}
+#But10.Over {background-position: -502px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But10.Up p {color:#08384F;top:2px;left:49px;}
+#But10.Down p {color:#EFD79E;top:3px;left:50px;}
+#But10.Over p {color:#E3CE79;top:2px;left:49px;}
+#But10 div {display:none;}
+#But18 {display:block;overflow:hidden;position:absolute;left:983px;top:377px;width:291px;height:35px;z-index:18;background:url('buttons/patrimoineindex_But13.png');background-repeat:no-repeat;}
+#But18.Up {background-position: 0 0;}
+#But18.Down {background-position: -291px 0;}
+#But18.Over {background-position: -582px 0;}
+#But18 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But18.Up p {color:#07384E;top:2px;left:30px;}
+#But18.Down p {color:#F1D673;top:3px;left:31px;}
+#But18.Over p {color:#E0C06C;top:2px;left:30px;}
+#But18 div {display:none;}
+#But23 {display:block;overflow:hidden;position:absolute;left:755px;top:211px;width:251px;height:35px;z-index:19;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But23.Up {background-position: 0 0;}
+#But23.Down {background-position: -251px 0;}
+#But23.Over {background-position: -502px 0;}
+#But23 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:27px;}
+#But23.Up p {color:#FFFFFF;top:2px;left:88px;}
+#But23.Down p {color:#08384E;top:3px;left:89px;}
+#But23.Over p {color:#FCE48A;top:2px;left:88px;}
+#But23 div {display:none;}
+#But26 {display:block;overflow:hidden;position:absolute;left:585px;top:477px;width:338px;height:35px;z-index:20;background:url('buttons/patrimoineindex_But26.png');background-repeat:no-repeat;}
+#But26.Up {background-position: 0 0;}
+#But26.Down {background-position: -338px 0;}
+#But26.Over {background-position: -676px 0;}
+#But26 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But26.Up p {color:#FFFFFF;top:6px;left:95px;}
+#But26.Down p {color:#08384E;top:7px;left:96px;}
+#But26.Over p {color:#08384E;top:6px;left:95px;}
+#But26 div {display:none;}
+#But27 {display:block;overflow:hidden;position:absolute;left:617px;top:543px;width:251px;height:35px;z-index:21;background:url('buttons/patrimoineindex_But2.png');background-repeat:no-repeat;}
+#But27.Up {background-position: 0 0;}
+#But27.Down {background-position: -251px 0;}
+#But27.Over {background-position: -502px 0;}
+#But27 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But27.Up p {color:#FFFFFF;top:6px;left:66px;}
+#But27.Down p {color:#08384E;top:7px;left:67px;}
+#But27.Over p {color:#08384E;top:6px;left:66px;}
+#But27 div {display:none;}
+#Img25 {display:none;overflow:hidden;position:absolute;left:24px;top:422px;width:539px;height:370px;z-index:22;min-width:539px;}
+#Img25Inner {position: absolute;width:539px;height:370px;border:0px;}
+#Img26 {display:none;overflow:hidden;position:absolute;left:938px;top:428px;width:338px;height:343px;z-index:23;min-width:338px;}
+#Img26Inner {position: absolute;width:338px;height:343px;border:0px;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:6px;top:244px;width:227px;height:20px;z-index:24;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:32px;top:428px;width:532px;height:354px;z-index:25;min-width:532px;}
+#Img1Inner {position: absolute;width:532px;height:354px;border:0px;}

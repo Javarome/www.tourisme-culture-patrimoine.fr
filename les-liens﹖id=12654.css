@@ -1,0 +1,125 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-liens_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:373px;top:199px;width:395px;height:35px;z-index:4;background:url('buttons/les-liens_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -395px 0;}
+#But10.Over {background-position: -790px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:117px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:139px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:138px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:26px;top:188px;width:168px;height:63px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-liens_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:307px;width:440px;height:35px;z-index:8;background:url('buttons/les-liens_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -440px 0;}
+#But4.Over {background-position: -880px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:44px;}
+#But4.Down p {color:#08384E;top:7px;left:45px;}
+#But4.Over p {color:#08384E;top:6px;left:44px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:26px;top:359px;width:375px;height:35px;z-index:9;background:url('buttons/les-liens_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -375px 0;}
+#But1.Over {background-position: -750px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:134px;}
+#But1.Down p {color:#08384E;top:7px;left:135px;}
+#But1.Over p {color:#08384E;top:6px;left:134px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:72px;top:265px;width:365px;height:35px;z-index:10;background:url('buttons/les-liens_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:89px;}
+#But2.Down p {color:#08384E;top:7px;left:90px;}
+#But2.Over p {color:#08384E;top:6px;left:89px;}
+#But2 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:666px;top:315px;width:453px;height:492px;z-index:11;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/les-liens_Box3.png');background-repeat:no-repeat;}
+#But3 {display:block;overflow:hidden;position:absolute;left:48px;top:460px;width:321px;height:35px;z-index:12;background:url('buttons/les-liens_But6.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -321px 0;}
+#But3.Over {background-position: -642px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:80px;}
+#But3.Down p {color:#08384E;top:7px;left:81px;}
+#But3.Over p {color:#08384E;top:6px;left:80px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:15px;top:510px;width:576px;height:35px;z-index:13;background:url('buttons/les-liens_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -576px 0;}
+#But5.Over {background-position: -1152px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:0px;}
+#But5.Down p {color:#08384E;top:7px;left:1px;}
+#But5.Over p {color:#08384E;top:6px;left:0px;}
+#But5 div {display:none;}
+#But7 {display:block;overflow:hidden;position:absolute;left:62px;top:566px;width:321px;height:35px;z-index:14;background:url('buttons/les-liens_But6.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -321px 0;}
+#But7.Over {background-position: -642px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:60px;}
+#But7.Down p {color:#08384E;top:7px;left:61px;}
+#But7.Over p {color:#08384E;top:6px;left:60px;}
+#But7 div {display:none;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:730px;top:401px;width:336px;height:273px;z-index:15;min-width:336px;}
+#Img5Inner {position: absolute;width:336px;height:273px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:782px;top:409px;width:249px;height:312px;z-index:16;min-width:249px;}
+#Img2Inner {position: absolute;width:249px;height:312px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:693px;top:441px;width:399px;height:247px;z-index:17;min-width:399px;}
+#Img6Inner {position: absolute;width:399px;height:247px;border:0px;}
+#But6 {display:block;overflow:hidden;position:absolute;left:62px;top:409px;width:321px;height:35px;z-index:18;background:url('buttons/les-liens_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -321px 0;}
+#But6.Over {background-position: -642px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:67px;}
+#But6.Down p {color:#08384E;top:7px;left:68px;}
+#But6.Over p {color:#08384E;top:6px;left:67px;}
+#But6 div {display:none;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:745px;top:428px;width:300px;height:290px;z-index:19;min-width:300px;}
+#Img7Inner {position: absolute;width:300px;height:290px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:745px;top:430px;width:296px;height:258px;z-index:20;min-width:296px;}
+#Img4Inner {position: absolute;width:296px;height:258px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:745px;top:428px;width:292px;height:253px;z-index:21;min-width:292px;}
+#Img8Inner {position: absolute;width:292px;height:253px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:745px;top:428px;width:296px;height:291px;z-index:22;min-width:296px;}
+#Img9Inner {position: absolute;width:296px;height:291px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:718px;top:487px;width:351px;height:134px;z-index:23;min-width:351px;}
+#Img10Inner {position: absolute;width:351px;height:134px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:62px;top:620px;width:321px;height:35px;z-index:24;background:url('buttons/les-liens_But6.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -321px 0;}
+#But8.Over {background-position: -642px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:82px;}
+#But8.Down p {color:#08384E;top:7px;left:83px;}
+#But8.Over p {color:#08384E;top:6px;left:82px;}
+#But8 div {display:none;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:718px;top:487px;width:358px;height:179px;z-index:25;min-width:358px;}
+#Img11Inner {position: absolute;width:358px;height:179px;border:0px;}
+#But9 {display:block;overflow:hidden;position:absolute;left:72px;top:680px;width:404px;height:35px;z-index:26;background:url('buttons/les-liens_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -404px 0;}
+#But9.Over {background-position: -808px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:13px;}
+#But9.Down p {color:#08384E;top:7px;left:14px;}
+#But9.Over p {color:#08384E;top:6px;left:13px;}
+#But9 div {display:none;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:27;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}

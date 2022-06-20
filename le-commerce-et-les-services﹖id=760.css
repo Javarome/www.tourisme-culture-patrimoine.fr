@@ -1,0 +1,128 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-30px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/le-commerce-et-les-services_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:411px;top:199px;width:411px;height:35px;z-index:4;background:url('buttons/le-commerce-et-les-services_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -411px 0;}
+#But10.Over {background-position: -822px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:16px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:67px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:66px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1094px;top:182px;width:168px;height:63px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/le-commerce-et-les-services_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:274px;width:391px;height:35px;z-index:8;background:url('buttons/le-commerce-et-les-services_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -391px 0;}
+#But4.Over {background-position: -782px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:112px;}
+#But4.Down p {color:#08384E;top:7px;left:113px;}
+#But4.Over p {color:#08384E;top:6px;left:112px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:307px;height:35px;z-index:9;background:url('buttons/le-commerce-et-les-services_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -307px 0;}
+#But1.Over {background-position: -614px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:31px;}
+#But1.Down p {color:#08384E;top:7px;left:32px;}
+#But1.Over p {color:#08384E;top:6px;left:31px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:33px;top:412px;width:365px;height:35px;z-index:10;background:url('buttons/le-commerce-et-les-services_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:36px;}
+#But2.Down p {color:#08384E;top:7px;left:37px;}
+#But2.Over p {color:#08384E;top:6px;left:36px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:26px;top:479px;width:345px;height:35px;z-index:11;background:url('buttons/le-commerce-et-les-services_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -345px 0;}
+#But3.Over {background-position: -690px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:63px;}
+#But3.Down p {color:#08384E;top:7px;left:64px;}
+#But3.Over p {color:#08384E;top:6px;left:63px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:27px;top:547px;width:389px;height:35px;z-index:12;background:url('buttons/le-commerce-et-les-services_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -389px 0;}
+#But5.Over {background-position: -778px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:114px;}
+#But5.Down p {color:#08384E;top:7px;left:115px;}
+#But5.Over p {color:#08384E;top:6px;left:114px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:4px;top:622px;width:386px;height:35px;z-index:13;background:url('buttons/le-commerce-et-les-services_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -386px 0;}
+#But6.Over {background-position: -772px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:146px;}
+#But6.Down p {color:#08384E;top:7px;left:147px;}
+#But6.Over p {color:#08384E;top:6px;left:146px;}
+#But6 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:442px;top:254px;width:678px;height:553px;z-index:14;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/le-commerce-et-les-services_Box3.png');background-repeat:no-repeat;}
+#But7 {display:block;overflow:hidden;position:absolute;left:15px;top:684px;width:315px;height:35px;z-index:15;background:url('buttons/le-commerce-et-les-services_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -315px 0;}
+#But7.Over {background-position: -630px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:96px;}
+#But7.Down p {color:#08384E;top:7px;left:97px;}
+#But7.Over p {color:#08384E;top:6px;left:96px;}
+#But7 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:19px;top:745px;width:315px;height:35px;z-index:16;background:url('buttons/le-commerce-et-les-services_But7.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -315px 0;}
+#But8.Over {background-position: -630px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:56px;}
+#But8.Down p {color:#08384E;top:7px;left:57px;}
+#But8.Over p {color:#08384E;top:6px;left:56px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:1104px;top:265px;width:180px;height:35px;z-index:17;background:url('buttons/le-commerce-et-les-services_But9.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -180px 0;}
+#But9.Over {background-position: -360px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:32px;}
+#But9.Down p {color:#08384E;top:7px;left:33px;}
+#But9.Over p {color:#08384E;top:6px;left:32px;}
+#But9 div {display:none;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:557px;top:408px;width:402px;height:249px;z-index:18;min-width:402px;}
+#Img5Inner {position: absolute;width:402px;height:249px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:492px;top:324px;width:577px;height:426px;z-index:19;min-width:577px;}
+#Img2Inner {position: absolute;width:577px;height:426px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:467px;top:351px;width:628px;height:377px;z-index:20;min-width:628px;}
+#Img6Inner {position: absolute;width:628px;height:377px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:533px;top:324px;width:494px;height:434px;z-index:21;min-width:494px;}
+#Img7Inner {position: absolute;width:494px;height:434px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:557px;top:322px;width:445px;height:373px;z-index:22;min-width:445px;}
+#Img8Inner {position: absolute;width:445px;height:373px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:468px;top:435px;width:601px;height:232px;z-index:23;min-width:601px;}
+#Img9Inner {position: absolute;width:601px;height:232px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:590px;top:324px;width:382px;height:456px;z-index:24;min-width:382px;}
+#Img10Inner {position: absolute;width:382px;height:456px;border:0px;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:532px;top:427px;width:515px;height:211px;z-index:25;min-width:515px;}
+#Img11Inner {position: absolute;width:515px;height:211px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:631px;top:334px;width:300px;height:394px;z-index:26;min-width:300px;}
+#Img4Inner {position: absolute;width:300px;height:394px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:589px;top:438px;width:381px;height:205px;z-index:27;min-width:381px;}
+#Img12Inner {position: absolute;width:381px;height:205px;border:0px;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:28;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:19px;top:190px;width:201px;height:64px;z-index:29;}

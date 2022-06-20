@@ -1,0 +1,26 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-4px;top:-2px;width:1343px;height:802px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/expo-horlo-joue_Box1.png');background-repeat:no-repeat;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:294px;top:140px;width:590px;height:35px;z-index:4;background:url('buttons/expo-horlo-joue_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -590px 0;}
+#But10.Over {background-position: -1180px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:19px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:93px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:92px;}
+#But10 div {display:none;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:364px;top:182px;width:437px;height:601px;z-index:5;min-width:437px;}
+#Img1Inner {position: absolute;width:437px;height:601px;border:0px;}
+#Img9 {display:block;overflow:hidden;position:absolute;left:10px;top:11px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img9Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:23px;top:189px;width:197px;height:58px;z-index:7;}
+#Img19 {display:block;overflow:hidden;position:absolute;left:1008px;top:11px;width:286px;height:169px;z-index:8;min-width:286px;}
+#Img19Inner {position: absolute;width:286px;height:169px;border:0px;}

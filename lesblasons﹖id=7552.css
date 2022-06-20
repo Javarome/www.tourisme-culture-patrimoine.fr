@@ -1,0 +1,70 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesblasons_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:480px;top:199px;width:288px;height:35px;z-index:4;background:url('buttons/lesblasons_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -288px 0;}
+#But10.Over {background-position: -576px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:61px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:84px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:83px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:26px;top:188px;width:168px;height:63px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:15px;top:10px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesblasons_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:15px;top:274px;width:391px;height:35px;z-index:8;background:url('buttons/lesblasons_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -391px 0;}
+#But4.Over {background-position: -782px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:82px;}
+#But4.Down p {color:#08384E;top:7px;left:83px;}
+#But4.Over p {color:#08384E;top:6px;left:82px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:375px;height:35px;z-index:9;background:url('buttons/lesblasons_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -375px 0;}
+#But1.Over {background-position: -750px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:43px;}
+#But1.Down p {color:#08384E;top:7px;left:44px;}
+#But1.Over p {color:#08384E;top:6px;left:43px;}
+#But1 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:442px;top:254px;width:678px;height:553px;z-index:10;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lesblasons_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:651px;top:354px;width:219px;height:249px;z-index:11;min-width:219px;}
+#Img2Inner {position: absolute;width:219px;height:249px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:621px;top:333px;width:301px;height:349px;z-index:12;min-width:301px;}
+#Img4Inner {position: absolute;width:301px;height:349px;border:0px;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:13;min-width:286px;}
+#Img8Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:615px;top:333px;width:331px;height:389px;z-index:14;min-width:331px;}
+#Img1Inner {position: absolute;width:331px;height:389px;border:0px;}
+#But2 {display:block;overflow:hidden;position:absolute;left:31px;top:396px;width:375px;height:35px;z-index:15;background:url('buttons/lesblasons_But1.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -375px 0;}
+#But2.Over {background-position: -750px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:57px;}
+#But2.Down p {color:#08384E;top:7px;left:58px;}
+#But2.Over p {color:#08384E;top:6px;left:57px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:27px;top:446px;width:375px;height:35px;z-index:16;background:url('buttons/lesblasons_But1.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -375px 0;}
+#But3.Over {background-position: -750px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:1px;}
+#But3.Down p {color:#08384E;top:7px;left:2px;}
+#But3.Over p {color:#08384E;top:6px;left:1px;}
+#But3 div {display:none;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:615px;top:333px;width:325px;height:394px;z-index:17;min-width:325px;}
+#Img5Inner {position: absolute;width:325px;height:394px;border:0px;}

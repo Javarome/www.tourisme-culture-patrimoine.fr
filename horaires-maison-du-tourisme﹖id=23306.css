@@ -1,0 +1,26 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:-38px;top:-16px;width:1338px;height:890px;z-index:2;min-width:1338px;}
+#Img1Inner {position: absolute;width:1338px;height:890px;border:0px;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:0px;top:0px;width:1343px;height:259px;z-index:3;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/horaires-maison-du-tourisme_Box1.png');background-repeat:no-repeat;}
+#Img4 {display:block;overflow:hidden;position:absolute;left:27px;top:15px;width:180px;height:180px;z-index:4;min-width:180px;}
+#Img4Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:27px;top:193px;width:201px;height:64px;z-index:5;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:260px;top:64px;width:763px;height:124px;z-index:6;}
+#Img5 {display:block;overflow:hidden;position:absolute;left:1079px;top:9px;width:206px;height:167px;z-index:7;min-width:206px;}
+#Img5Inner {position: absolute;width:206px;height:167px;border:0px;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:1101px;top:187px;width:192px;height:63px;z-index:8;}
+#Img6 {display:block;overflow:hidden;position:absolute;left:450px;top:258px;width:748px;height:542px;z-index:9;min-width:748px;}
+#Img6Inner {position: absolute;width:748px;height:542px;border:0px;}
+#Img2 {display:block;overflow:hidden;position:absolute;left:21px;top:390px;width:372px;height:260px;z-index:10;min-width:372px;}
+#Img2Inner {position: absolute;width:372px;height:260px;border:0px;}
+#Img7 {display:block;overflow:hidden;position:absolute;left:28px;top:640px;width:359px;height:97px;z-index:11;min-width:359px;}
+#Img7Inner {position: absolute;width:359px;height:97px;border:0px;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:43px;top:250px;width:329px;height:140px;z-index:12;min-width:329px;}
+#Img3Inner {position: absolute;width:329px;height:140px;border:0px;}

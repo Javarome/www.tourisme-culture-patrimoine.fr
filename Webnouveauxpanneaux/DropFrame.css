@@ -1,0 +1,51 @@
+#DF1 {
+}
+
+#DF2 {
+	background-image: url(DropFrame/l.png);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+#DF3 {
+	background-image: url(DropFrame/b.png);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+#DF4 {
+	background-image: url(DropFrame/r.png);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+
+#DF5 {
+	background-image: url(DropFrame/t.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#DF6 {
+	background-image: url(DropFrame/lb.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+#DF7 {
+	background-image: url(DropFrame/rb.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#DF8 {
+	background-image: url(DropFrame/rt.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+#DF9 {
+	background-image: url(DropFrame/lt.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+

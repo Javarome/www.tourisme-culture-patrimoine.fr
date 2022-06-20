@@ -1,0 +1,233 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:3px;top:412px;width:1305px;height:395px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lafrontiere_Box2.png');background-repeat:no-repeat;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:502px;top:429px;width:203px;height:289px;z-index:3;min-width:203px;}
+#Img3Inner {position: absolute;width:203px;height:289px;border:0px;}
+#Img13 {display:block;overflow:hidden;position:absolute;left:16px;top:254px;width:1296px;height:162px;z-index:4;min-width:1296px;}
+#Img13Inner {position: absolute;width:1296px;height:162px;border:0px;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-22px;top:12px;width:1343px;height:259px;z-index:5;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/lafrontiere_Box1.png');background-repeat:no-repeat;}
+#Obj3 {word-wrap:break-word; display:block;position:absolute;left:229px;top:59px;width:763px;height:124px;z-index:6;}
+#Img14 {display:block;overflow:hidden;position:absolute;left:27px;top:15px;width:180px;height:180px;z-index:7;min-width:180px;}
+#Img14Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Text4 {word-wrap:break-word; display:block;position:absolute;left:27px;top:193px;width:175px;height:62px;z-index:8;}
+#But1 {display:block;overflow:hidden;position:absolute;left:44px;top:443px;width:316px;height:35px;z-index:9;background:url('buttons/lafrontiere_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -316px 0;}
+#But1.Over {background-position: -632px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But1.Up p {color:#039EE9;top:6px;left:6px;}
+#But1.Down p {color:#82583C;top:7px;left:7px;}
+#But1.Over p {color:#08384E;top:6px;left:6px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:33px;top:479px;width:316px;height:35px;z-index:10;background:url('buttons/lafrontiere_But1.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -316px 0;}
+#But2.Over {background-position: -632px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But2.Up p {color:#039EE9;top:6px;left:24px;}
+#But2.Down p {color:#82583C;top:7px;left:25px;}
+#But2.Over p {color:#08384E;top:6px;left:24px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:53px;top:513px;width:259px;height:35px;z-index:11;background:url('buttons/lafrontiere_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -259px 0;}
+#But3.Over {background-position: -518px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But3.Up p {color:#039EE9;top:6px;left:29px;}
+#But3.Down p {color:#82583C;top:7px;left:30px;}
+#But3.Over p {color:#08384E;top:6px;left:29px;}
+#But3 div {display:none;}
+#But4 {display:block;overflow:hidden;position:absolute;left:53px;top:547px;width:259px;height:35px;z-index:12;background:url('buttons/lafrontiere_But3.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -259px 0;}
+#But4.Over {background-position: -518px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But4.Up p {color:#039EE9;top:6px;left:9px;}
+#But4.Down p {color:#82583C;top:7px;left:10px;}
+#But4.Over p {color:#08384E;top:6px;left:9px;}
+#But4 div {display:none;}
+#But8 {display:block;overflow:hidden;position:absolute;left:53px;top:581px;width:259px;height:35px;z-index:13;background:url('buttons/lafrontiere_But3.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -259px 0;}
+#But8.Over {background-position: -518px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But8.Up p {color:#039EE9;top:6px;left:2px;}
+#But8.Down p {color:#82583C;top:7px;left:3px;}
+#But8.Over p {color:#08384E;top:6px;left:2px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:44px;top:615px;width:259px;height:35px;z-index:14;background:url('buttons/lafrontiere_But3.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -259px 0;}
+#But9.Over {background-position: -518px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But9.Up p {color:#039EE9;top:6px;left:1px;}
+#But9.Down p {color:#82583C;top:7px;left:2px;}
+#But9.Over p {color:#08384E;top:6px;left:1px;}
+#But9 div {display:none;}
+#But10 {display:block;overflow:hidden;position:absolute;left:44px;top:649px;width:312px;height:35px;z-index:15;background:url('buttons/lafrontiere_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -312px 0;}
+#But10.Over {background-position: -624px 0;}
+#But10 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But10.Up p {color:#039EE9;top:6px;left:-2px;}
+#But10.Down p {color:#82583C;top:7px;left:-1px;}
+#But10.Over p {color:#08384E;top:6px;left:-2px;}
+#But10 div {display:none;}
+#But11 {display:block;overflow:hidden;position:absolute;left:44px;top:683px;width:259px;height:35px;z-index:16;background:url('buttons/lafrontiere_But3.png');background-repeat:no-repeat;}
+#But11.Up {background-position: 0 0;}
+#But11.Down {background-position: -259px 0;}
+#But11.Over {background-position: -518px 0;}
+#But11 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But11.Up p {color:#039EE9;top:6px;left:17px;}
+#But11.Down p {color:#82583C;top:7px;left:18px;}
+#But11.Over p {color:#08384E;top:6px;left:17px;}
+#But11 div {display:none;}
+#But12 {display:block;overflow:hidden;position:absolute;left:16px;top:717px;width:333px;height:35px;z-index:17;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But12.Up {background-position: 0 0;}
+#But12.Down {background-position: -333px 0;}
+#But12.Over {background-position: -666px 0;}
+#But12 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But12.Up p {color:#039EE9;top:6px;left:14px;}
+#But12.Down p {color:#82583C;top:7px;left:15px;}
+#But12.Over p {color:#08384E;top:6px;left:14px;}
+#But12 div {display:none;}
+#But13 {display:block;overflow:hidden;position:absolute;left:14px;top:751px;width:333px;height:35px;z-index:18;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But13.Up {background-position: 0 0;}
+#But13.Down {background-position: -333px 0;}
+#But13.Over {background-position: -666px 0;}
+#But13 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But13.Up p {color:#039EE9;top:6px;left:27px;}
+#But13.Down p {color:#82583C;top:7px;left:28px;}
+#But13.Over p {color:#08384E;top:6px;left:27px;}
+#But13 div {display:none;}
+#Text1 {word-wrap:break-word; display:block;position:absolute;left:493px;top:205px;width:237px;height:33px;z-index:19;}
+#But17 {display:none;overflow:hidden;position:absolute;left:762px;top:451px;width:461px;height:35px;z-index:20;background:url('buttons/lafrontiere_But17.png');background-repeat:no-repeat;}
+#But17.Up {background-position: 0 0;}
+#But17.Down {background-position: -461px 0;}
+#But17.Over {background-position: -922px 0;}
+#But17 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But17.Up p {color:#039EE9;top:6px;left:56px;}
+#But17.Down p {color:#82583C;top:7px;left:57px;}
+#But17.Over p {color:#08384E;top:6px;left:56px;}
+#But17 div {display:none;}
+#But6 {display:none;overflow:hidden;position:absolute;left:807px;top:479px;width:423px;height:35px;z-index:21;background:url('buttons/lafrontiere_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -423px 0;}
+#But6.Over {background-position: -846px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But6.Up p {color:#039EE9;top:6px;left:29px;}
+#But6.Down p {color:#82583C;top:7px;left:30px;}
+#But6.Over p {color:#08384E;top:6px;left:29px;}
+#But6 div {display:none;}
+#But7 {display:none;overflow:hidden;position:absolute;left:820px;top:505px;width:255px;height:35px;z-index:22;background:url('buttons/lafrontiere_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -255px 0;}
+#But7.Over {background-position: -510px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But7.Up p {color:#039EE9;top:6px;left:46px;}
+#But7.Down p {color:#82583C;top:7px;left:47px;}
+#But7.Over p {color:#08384E;top:6px;left:46px;}
+#But7 div {display:none;}
+#But14 {display:none;overflow:hidden;position:absolute;left:826px;top:533px;width:430px;height:35px;z-index:23;background:url('buttons/lafrontiere_But14.png');background-repeat:no-repeat;}
+#But14.Up {background-position: 0 0;}
+#But14.Down {background-position: -430px 0;}
+#But14.Over {background-position: -860px 0;}
+#But14 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But14.Up p {color:#039EE9;top:6px;left:-2px;}
+#But14.Down p {color:#82583C;top:7px;left:-1px;}
+#But14.Over p {color:#08384E;top:6px;left:-2px;}
+#But14 div {display:none;}
+#But5 {display:none;overflow:hidden;position:absolute;left:807px;top:560px;width:485px;height:35px;z-index:24;background:url('buttons/lafrontiere_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -485px 0;}
+#But5.Over {background-position: -970px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But5.Up p {color:#039EE9;top:6px;left:-1px;}
+#But5.Down p {color:#82583C;top:7px;left:0px;}
+#But5.Over p {color:#08384E;top:6px;left:-1px;}
+#But5 div {display:none;}
+#But15 {display:none;overflow:hidden;position:absolute;left:852px;top:592px;width:333px;height:35px;z-index:25;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But15.Up {background-position: 0 0;}
+#But15.Down {background-position: -333px 0;}
+#But15.Over {background-position: -666px 0;}
+#But15 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But15.Up p {color:#039EE9;top:6px;left:38px;}
+#But15.Down p {color:#82583C;top:7px;left:39px;}
+#But15.Over p {color:#08384E;top:6px;left:38px;}
+#But15 div {display:none;}
+#But16{display:block;overflow:hidden;position:absolute;left:865px;top:409px;width:294px;height:57px;z-index:26;font-weight:400;font-family:"Arial";font-size:27px !important;color:rgb(161, 139, 126); text-shadow: 0 0px;}
+#But16{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But16 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But16:focus {outline:0}
+
+#Img11 {display:block;overflow:hidden;position:absolute;left:1006px;top:12px;width:286px;height:169px;z-index:27;min-width:286px;}
+#Img11Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Img1 {display:none;overflow:hidden;position:absolute;left:368px;top:424px;width:440px;height:293px;z-index:28;min-width:440px;}
+#Img1Inner {position: absolute;width:440px;height:293px;border:0px;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:385px;top:427px;width:379px;height:284px;z-index:29;min-width:379px;}
+#Img2Inner {position: absolute;width:379px;height:284px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:367px;top:415px;width:429px;height:322px;z-index:30;min-width:429px;}
+#Img7Inner {position: absolute;width:429px;height:322px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:385px;top:419px;width:411px;height:308px;z-index:31;min-width:411px;}
+#Img6Inner {position: absolute;width:411px;height:308px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:373px;top:419px;width:424px;height:318px;z-index:32;min-width:424px;}
+#Img5Inner {position: absolute;width:424px;height:318px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:385px;top:419px;width:412px;height:309px;z-index:33;min-width:412px;}
+#Img8Inner {position: absolute;width:412px;height:309px;border:0px;}
+#But18{display:block;overflow:hidden;position:absolute;left:852px;top:615px;width:294px;height:57px;z-index:34;font-weight:400;font-family:"Arial";font-size:27px !important;color:rgb(161, 139, 126); text-shadow: 0 0px;}
+#But18{background-color: rgba(0, 0, 0, 0.000); background-image: none; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0); -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#001A1A1A',endColorstr='#00000000', GradientType=0);}
+
+#But18 { border-style: solid; border-color: rgba(0, 0, 0, 0); -webkit-background-clip: padding; background-clip: padding-box; border-width: 1px;} 
+#But18:focus {outline:0}
+
+#But19 {display:none;overflow:hidden;position:absolute;left:852px;top:661px;width:333px;height:35px;z-index:35;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But19.Up {background-position: 0 0;}
+#But19.Down {background-position: -333px 0;}
+#But19.Over {background-position: -666px 0;}
+#But19 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But19.Up p {color:#039EE9;top:6px;left:40px;}
+#But19.Down p {color:#82583C;top:7px;left:41px;}
+#But19.Over p {color:#08384E;top:6px;left:40px;}
+#But19 div {display:none;}
+#But20 {display:none;overflow:hidden;position:absolute;left:852px;top:692px;width:333px;height:35px;z-index:36;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But20.Up {background-position: 0 0;}
+#But20.Down {background-position: -333px 0;}
+#But20.Over {background-position: -666px 0;}
+#But20 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But20.Up p {color:#039EE9;top:6px;left:36px;}
+#But20.Down p {color:#82583C;top:7px;left:37px;}
+#But20.Over p {color:#08384E;top:6px;left:36px;}
+#But20 div {display:none;}
+#But21 {display:none;overflow:hidden;position:absolute;left:852px;top:726px;width:333px;height:35px;z-index:37;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But21.Up {background-position: 0 0;}
+#But21.Down {background-position: -333px 0;}
+#But21.Over {background-position: -666px 0;}
+#But21 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But21.Up p {color:#039EE9;top:6px;left:66px;}
+#But21.Down p {color:#82583C;top:7px;left:67px;}
+#But21.Over p {color:#08384E;top:6px;left:66px;}
+#But21 div {display:none;}
+#But22 {display:none;overflow:hidden;position:absolute;left:852px;top:760px;width:333px;height:35px;z-index:38;background:url('buttons/lafrontiere_But12.png');background-repeat:no-repeat;}
+#But22.Up {background-position: 0 0;}
+#But22.Down {background-position: -333px 0;}
+#But22.Over {background-position: -666px 0;}
+#But22 p {cursor:pointer;position:absolute;z-index:2;font-weight:normal;font-family:Arial;font-size:21px;}
+#But22.Up p {color:#039EE9;top:6px;left:104px;}
+#But22.Down p {color:#82583C;top:7px;left:105px;}
+#But22.Over p {color:#08384E;top:6px;left:104px;}
+#But22 div {display:none;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:385px;top:419px;width:408px;height:306px;z-index:39;min-width:408px;}
+#Img4Inner {position: absolute;width:408px;height:306px;border:0px;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:455px;top:419px;width:246px;height:328px;z-index:40;min-width:246px;}
+#Img9Inner {position: absolute;width:246px;height:328px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:393px;top:415px;width:425px;height:319px;z-index:41;min-width:425px;}
+#Img10Inner {position: absolute;width:425px;height:319px;border:0px;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:385px;top:419px;width:426px;height:320px;z-index:42;min-width:426px;}
+#Img12Inner {position: absolute;width:426px;height:320px;border:0px;}

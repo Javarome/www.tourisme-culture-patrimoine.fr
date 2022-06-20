@@ -1,0 +1,128 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-loire-et-les-bateaux_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:244px;top:50px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:460px;top:199px;width:308px;height:35px;z-index:4;background:url('buttons/la-loire-et-les-bateaux_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -308px 0;}
+#But10.Over {background-position: -616px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:7px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:47px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:46px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1112px;top:182px;width:168px;height:63px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:4px;top:4px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-loire-et-les-bateaux_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:43px;top:272px;width:273px;height:35px;z-index:8;background:url('buttons/la-loire-et-les-bateaux_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -273px 0;}
+#But4.Over {background-position: -546px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#039EE9;top:6px;left:80px;}
+#But4.Down p {color:#08384E;top:7px;left:81px;}
+#But4.Over p {color:#08384E;top:6px;left:80px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:26px;top:313px;width:307px;height:35px;z-index:9;background:url('buttons/la-loire-et-les-bateaux_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -307px 0;}
+#But1.Over {background-position: -614px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#039EE9;top:6px;left:50px;}
+#But1.Down p {color:#08384E;top:7px;left:51px;}
+#But1.Over p {color:#08384E;top:6px;left:50px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:28px;top:358px;width:365px;height:35px;z-index:10;background:url('buttons/la-loire-et-les-bateaux_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -365px 0;}
+#But2.Over {background-position: -730px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#039EE9;top:6px;left:51px;}
+#But2.Down p {color:#08384E;top:7px;left:52px;}
+#But2.Over p {color:#08384E;top:6px;left:51px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:45px;top:402px;width:345px;height:35px;z-index:11;background:url('buttons/la-loire-et-les-bateaux_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -345px 0;}
+#But3.Over {background-position: -690px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#039EE9;top:6px;left:34px;}
+#But3.Down p {color:#08384E;top:7px;left:35px;}
+#But3.Over p {color:#08384E;top:6px;left:34px;}
+#But3 div {display:none;}
+#But5 {display:block;overflow:hidden;position:absolute;left:16px;top:445px;width:389px;height:35px;z-index:12;background:url('buttons/la-loire-et-les-bateaux_But5.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -389px 0;}
+#But5.Over {background-position: -778px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#039EE9;top:6px;left:84px;}
+#But5.Down p {color:#08384E;top:7px;left:85px;}
+#But5.Over p {color:#08384E;top:6px;left:84px;}
+#But5 div {display:none;}
+#But6 {display:block;overflow:hidden;position:absolute;left:25px;top:486px;width:386px;height:35px;z-index:13;background:url('buttons/la-loire-et-les-bateaux_But6.png');background-repeat:no-repeat;}
+#But6.Up {background-position: 0 0;}
+#But6.Down {background-position: -386px 0;}
+#But6.Over {background-position: -772px 0;}
+#But6 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But6.Up p {color:#039EE9;top:6px;left:81px;}
+#But6.Down p {color:#08384E;top:7px;left:82px;}
+#But6.Over p {color:#08384E;top:6px;left:81px;}
+#But6 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:477px;top:250px;width:678px;height:553px;z-index:14;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/la-loire-et-les-bateaux_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:642px;top:289px;width:346px;height:394px;z-index:15;min-width:346px;}
+#Img2Inner {position: absolute;width:346px;height:394px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:593px;top:297px;width:443px;height:481px;z-index:16;min-width:443px;}
+#Img4Inner {position: absolute;width:443px;height:481px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:606px;top:392px;width:370px;height:376px;z-index:17;min-width:370px;}
+#Img5Inner {position: absolute;width:370px;height:376px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:562px;top:313px;width:505px;height:449px;z-index:18;min-width:505px;}
+#Img6Inner {position: absolute;width:505px;height:449px;border:0px;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:587px;top:293px;width:439px;height:467px;z-index:19;min-width:439px;}
+#Img7Inner {position: absolute;width:439px;height:467px;border:0px;}
+#But7 {display:block;overflow:hidden;position:absolute;left:25px;top:616px;width:354px;height:35px;z-index:20;background:url('buttons/la-loire-et-les-bateaux_But7.png');background-repeat:no-repeat;}
+#But7.Up {background-position: 0 0;}
+#But7.Down {background-position: -354px 0;}
+#But7.Over {background-position: -708px 0;}
+#But7 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But7.Up p {color:#039EE9;top:6px;left:119px;}
+#But7.Down p {color:#08384E;top:7px;left:120px;}
+#But7.Over p {color:#08384E;top:6px;left:119px;}
+#But7 div {display:none;}
+#Img9 {display:none;overflow:hidden;position:absolute;left:598px;top:436px;width:417px;height:258px;z-index:21;min-width:417px;}
+#Img9Inner {position: absolute;width:417px;height:258px;border:0px;}
+#Img8 {display:none;overflow:hidden;position:absolute;left:523px;top:324px;width:584px;height:469px;z-index:22;min-width:584px;}
+#Img8Inner {position: absolute;width:584px;height:469px;border:0px;}
+#Img10 {display:none;overflow:hidden;position:absolute;left:647px;top:438px;width:395px;height:213px;z-index:23;min-width:395px;}
+#Img10Inner {position: absolute;width:395px;height:213px;border:0px;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:1008px;top:4px;width:286px;height:169px;z-index:24;min-width:286px;}
+#Img1Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:26px;top:191px;width:206px;height:67px;z-index:25;}
+#Img11 {display:none;overflow:hidden;position:absolute;left:596px;top:307px;width:517px;height:367px;z-index:26;min-width:517px;}
+#Img11Inner {position: absolute;width:517px;height:367px;border:0px;}
+#But8 {display:block;overflow:hidden;position:absolute;left:28px;top:527px;width:386px;height:35px;z-index:27;background:url('buttons/la-loire-et-les-bateaux_But6.png');background-repeat:no-repeat;}
+#But8.Up {background-position: 0 0;}
+#But8.Down {background-position: -386px 0;}
+#But8.Over {background-position: -772px 0;}
+#But8 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But8.Up p {color:#039EE9;top:6px;left:66px;}
+#But8.Down p {color:#08384E;top:7px;left:67px;}
+#But8.Over p {color:#08384E;top:6px;left:66px;}
+#But8 div {display:none;}
+#But9 {display:block;overflow:hidden;position:absolute;left:25px;top:575px;width:386px;height:35px;z-index:28;background:url('buttons/la-loire-et-les-bateaux_But6.png');background-repeat:no-repeat;}
+#But9.Up {background-position: 0 0;}
+#But9.Down {background-position: -386px 0;}
+#But9.Over {background-position: -772px 0;}
+#But9 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But9.Up p {color:#039EE9;top:6px;left:25px;}
+#But9.Down p {color:#08384E;top:7px;left:26px;}
+#But9.Over p {color:#08384E;top:6px;left:25px;}
+#But9 div {display:none;}
+#Img12 {display:none;overflow:hidden;position:absolute;left:647px;top:293px;width:318px;height:472px;z-index:29;min-width:318px;}
+#Img12Inner {position: absolute;width:318px;height:472px;border:0px;}

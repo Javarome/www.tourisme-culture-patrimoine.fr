@@ -1,0 +1,84 @@
+p {margin:0px; padding:0px; line-height:100%}
+body { height:100%; }
+html,body { 
+-webkit-text-size-adjust:100%;
+background-color: #ffffff;
+}
+.cLinkHidden {position:absolute; visibility:hidden; left:0px; top:0px; width:0px; height:0px; overflow:hidden;}
+#Page {overflow:hidden;position:relative;width:1300px;height:800px;;}
+#Box1 {display:block;overflow:hidden;position:absolute;left:-5px;top:-2px;width:1360px;height:268px;z-index:2;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/depuis-le-xixemesiecle_Box1.png');background-repeat:no-repeat;}
+#Obj2 {word-wrap:break-word; display:block;position:absolute;left:320px;top:46px;width:763px;height:124px;z-index:3;}
+#But10 {display:block;overflow:hidden;position:absolute;left:409px;top:199px;width:359px;height:35px;z-index:4;background:url('buttons/depuis-le-xixemesiecle_But10.png');background-repeat:no-repeat;}
+#But10.Up {background-position: 0 0;}
+#But10.Down {background-position: -359px 0;}
+#But10.Over {background-position: -718px 0;}
+#But10 p {cursor:default;position:absolute;z-index:2;font-weight:bold;font-family:Arial;}
+#But10.Up p {font-size:27px;color:#FFFFFF;top:2px;left:20px;}
+#But10.Down p {font-size:20px;color:#08384E;top:7px;left:63px;}
+#But10.Over p {font-size:20px;color:#08384E;top:6px;left:62px;}
+#But10 div {display:none;}
+#Text2 {word-wrap:break-word; display:block;position:absolute;left:1094px;top:176px;width:205px;height:65px;z-index:5;}
+#Img3 {display:block;overflow:hidden;position:absolute;left:1050px;top:286px;width:180px;height:180px;z-index:6;min-width:180px;}
+#Img3Inner {position: absolute;width:180px;height:180px;border:0px;}
+#Box2 {display:block;overflow:hidden;position:absolute;left:-6px;top:254px;width:1312px;height:547px;z-index:7;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/depuis-le-xixemesiecle_Box2.png');background-repeat:no-repeat;}
+#But4 {display:block;overflow:hidden;position:absolute;left:43px;top:272px;width:310px;height:35px;z-index:8;background:url('buttons/depuis-le-xixemesiecle_But4.png');background-repeat:no-repeat;}
+#But4.Up {background-position: 0 0;}
+#But4.Down {background-position: -310px 0;}
+#But4.Over {background-position: -620px 0;}
+#But4 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But4.Up p {color:#009FE3;top:6px;left:66px;}
+#But4.Down p {color:#08384E;top:7px;left:67px;}
+#But4.Over p {color:#08384E;top:6px;left:66px;}
+#But4 div {display:none;}
+#But1 {display:block;overflow:hidden;position:absolute;left:27px;top:338px;width:365px;height:35px;z-index:9;background:url('buttons/depuis-le-xixemesiecle_But1.png');background-repeat:no-repeat;}
+#But1.Up {background-position: 0 0;}
+#But1.Down {background-position: -365px 0;}
+#But1.Over {background-position: -730px 0;}
+#But1 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But1.Up p {color:#009FE3;top:6px;left:8px;}
+#But1.Down p {color:#08384E;top:7px;left:9px;}
+#But1.Over p {color:#08384E;top:6px;left:8px;}
+#But1 div {display:none;}
+#But2 {display:block;overflow:hidden;position:absolute;left:21px;top:412px;width:355px;height:35px;z-index:10;background:url('buttons/depuis-le-xixemesiecle_But2.png');background-repeat:no-repeat;}
+#But2.Up {background-position: 0 0;}
+#But2.Down {background-position: -355px 0;}
+#But2.Over {background-position: -710px 0;}
+#But2 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But2.Up p {color:#019EE3;top:6px;left:116px;}
+#But2.Down p {color:#08384E;top:7px;left:117px;}
+#But2.Over p {color:#08384E;top:6px;left:116px;}
+#But2 div {display:none;}
+#But3 {display:block;overflow:hidden;position:absolute;left:45px;top:485px;width:271px;height:35px;z-index:11;background:url('buttons/depuis-le-xixemesiecle_But3.png');background-repeat:no-repeat;}
+#But3.Up {background-position: 0 0;}
+#But3.Down {background-position: -271px 0;}
+#But3.Over {background-position: -542px 0;}
+#But3 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But3.Up p {color:#059CDF;top:6px;left:14px;}
+#But3.Down p {color:#08384E;top:7px;left:15px;}
+#But3.Over p {color:#08384E;top:6px;left:14px;}
+#But3 div {display:none;}
+#Box3 {display:none;overflow:hidden;position:absolute;left:403px;top:248px;width:678px;height:553px;z-index:12;padding-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;background:url('images/depuis-le-xixemesiecle_Box3.png');background-repeat:no-repeat;}
+#Img2 {display:none;overflow:hidden;position:absolute;left:455px;top:381px;width:573px;height:243px;z-index:13;min-width:573px;}
+#Img2Inner {position: absolute;width:573px;height:243px;border:0px;}
+#Img4 {display:none;overflow:hidden;position:absolute;left:446px;top:345px;width:591px;height:278px;z-index:14;min-width:591px;}
+#Img4Inner {position: absolute;width:591px;height:278px;border:0px;}
+#Img5 {display:none;overflow:hidden;position:absolute;left:469px;top:357px;width:545px;height:253px;z-index:15;min-width:545px;}
+#Img5Inner {position: absolute;width:545px;height:253px;border:0px;}
+#Img6 {display:none;overflow:hidden;position:absolute;left:597px;top:306px;width:315px;height:391px;z-index:16;min-width:315px;}
+#Img6Inner {position: absolute;width:315px;height:391px;border:0px;}
+#But5 {display:block;overflow:hidden;position:absolute;left:45px;top:551px;width:271px;height:35px;z-index:17;background:url('buttons/depuis-le-xixemesiecle_But3.png');background-repeat:no-repeat;}
+#But5.Up {background-position: 0 0;}
+#But5.Down {background-position: -271px 0;}
+#But5.Over {background-position: -542px 0;}
+#But5 p {cursor:pointer;position:absolute;z-index:2;font-weight:bold;font-family:Arial;font-size:20px;}
+#But5.Up p {color:#009FE3;top:6px;left:78px;}
+#But5.Down p {color:#08384E;top:7px;left:79px;}
+#But5.Over p {color:#08384E;top:6px;left:78px;}
+#But5 div {display:none;}
+#Img7 {display:none;overflow:hidden;position:absolute;left:544px;top:399px;width:403px;height:217px;z-index:18;min-width:403px;}
+#Img7Inner {position: absolute;width:403px;height:217px;border:0px;}
+#Img8 {display:block;overflow:hidden;position:absolute;left:1020px;top:0px;width:286px;height:169px;z-index:19;min-width:286px;}
+#Img8Inner {position: absolute;width:286px;height:169px;border:0px;}
+#Obj1 {word-wrap:break-word; display:block;position:absolute;left:-22px;top:181px;width:204px;height:73px;z-index:20;}
+#Img1 {display:block;overflow:hidden;position:absolute;left:3px;top:-2px;width:170px;height:170px;z-index:21;min-width:170px;}
+#Img1Inner {position: absolute;width:170px;height:170px;border:0px;}
