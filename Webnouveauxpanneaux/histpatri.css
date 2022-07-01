@@ -1,0 +1,61 @@
+.content {
+  background-color: #DCCA9E;
+}
+
+.inner-content {
+  margin: auto;
+  width: 100%;
+  padding: 2em;
+  text-align: center;
+}
+
+.map {
+  position: relative;
+}
+
+.map-image {
+  max-width: 100%;
+  width: 100%;
+}
+
+.map-link {
+  position: absolute;
+  border: 1px red solid;
+}
+
+.map-link img {
+  position: relative;
+  max-width: 400px;
+  max-height: 400px;
+  opacity: 0;
+  transform: scale(0);
+  box-shadow: 0.5em 1em 2em rgba(0, 0, 0, 0.5);
+  transition: all 1s ease;
+}
+
+img.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.menu {
+  text-align: left;
+  width: 100%;
+  column-width: 15em;
+  color: white;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu li {
+  padding: 0.4em;
+}

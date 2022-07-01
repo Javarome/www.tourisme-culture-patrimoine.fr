@@ -22,10 +22,16 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
 }
-.title h1 {
+
+.title h1, h2 {
   color: #FAE49F;
   font-weight: inherit;
 }
+
+.title h2 {
+  font-size: 2em;
+}
+
 .main-nav {
   display: flex;
   margin: 0;
@@ -91,15 +97,26 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
 }
+
 .content .book {
   max-height: 500px;
 }
+
+figcaption {
+  color: white;
+  font-size: 1.5em;
+}
+
+a:has(figcaption) {
+  text-decoration: none;
+}
+
 #Form2 {
-  background-color: rgba(224, 219, 156,1.000);
+  background-color: rgba(224, 219, 156, 1.000);
   padding: 0.5em;
   margin: 1em;
 }
 
-#old {
+.deprecated {
   display: none;
 }
